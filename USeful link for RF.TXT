@@ -1,0 +1,5 @@
+https://inst.eecs.berkeley.edu/~ee105/fa14/lectures/
+Bekerly edu lectures
+
+
+https://inst.eecs.berkeley.edu/~ee105/fa14/lectures/Lecture12-Small%20Signal%20Model-BJT.pdf

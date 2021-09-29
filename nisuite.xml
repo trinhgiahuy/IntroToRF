@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<suiteDefinition MIFVersion="17.0.0.210" timeStamp="Mon Aug 21 18:13:57 2017" xmlns="NIMetaSuite" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="NIMetaSuite MetaSuiteDefinition.xsd">
+
+  <suiteId GUID="{BDE4C95B-2740-47A9-921F-1F625628AF0F}" packageGUID="{F1A2750F-D1F0-4E88-B304-10FACC3F0721}" version=""/>
+
+  <distribution id="{803DEDC1-A19A-44BB-AE5A-52AC0EEDBD1E}">
+    <distId GUID="{1542524B-2B03-4185-BA87-F46579D300E5}" languages="0009" packageGUID="{803DEDC1-A19A-44BB-AE5A-52AC0EEDBD1E}" version="17.0.0"/>
+    <inputRoot suiteVolume="1">Distributions\d000\</inputRoot>
+    <serialGroupId>{803DEDC1-A19A-44BB-AE5A-52AC0EEDBD1E}</serialGroupId>
+    <serialGroupId>{803DEDC1-A19A-44BB-AE5A-52AC0EEDBD1E}2</serialGroupId>
+    <serialGroupId>{803DEDC1-A19A-44BB-AE5A-52AC0EEDBD1E}3</serialGroupId>
+    <serialGroupId>{803DEDC1-A19A-44BB-AE5A-52AC0EEDBD1E}4</serialGroupId>
+    <directoryId>NIDIR</directoryId>
+    <EULAId>NIStandardReleased</EULAId>
+    <EULAId>SilverlightPrivacy_5.1</EULAId>
+    <EULAId>Silverlight_5.0</EULAId>
+    <distributionType>ADE</distributionType>
+    <name language="0009">LabVIEW 2017</name>
+    <warnings>
+      <warning isFatal="true">
+        <header language="0009">Microsoft Visual C++ 2015 Run-Time</header>
+        <info language="0009">You must update Windows to install Microsoft KB 2919355, which is prerequisite for the Microsoft Visual C++ 2015 Run-Time software. For more information, visit ni.com/info and enter the Info Code: KB2919355.</info>
+        <condition>NOT NIRUNNINGINMERGED AND NOT KB2919355DETECTED="YES"</condition>
+      </warning>
+    </warnings>
+    <setupExeVersion>17.0.0.209</setupExeVersion>
+    <minimumRequiredVersionOfMetaSuiteBuilder>17.0.0</minimumRequiredVersionOfMetaSuiteBuilder>
+    <activation>
+      <licensedProduct isCore="true" version="17.0.0">LabVIEW_AppBuilder_PKG</licensedProduct>
+      <licensedProduct isCore="true" version="17.0.0">LabVIEW_BDS_PKG</licensedProduct>
+      <licensedProduct version="17.0.0">LabVIEW_DatabaseTK_PKG</licensedProduct>
+      <licensedProduct isCore="true" version="17.0.0">LabVIEW_FDS_PKG</licensedProduct>
+      <licensedProduct isCore="true" version="17.0.0">LabVIEW_Home_PKG</licensedProduct>
+      <licensedProduct isCore="true" version="17.0.0">LabVIEW_PDS_PKG</licensedProduct>
+      <licensedProduct isCore="true" version="17.0.0">LabVIEW_PDSD_PKG</licensedProduct>
+      <licensedProduct version="17.0.0">LabVIEW_ReportGenTK_PKG</licensedProduct>
+      <licensedProduct isCore="true" version="17.0.0">LabVIEW_Student_PKG</licensedProduct>
+    </activation>
+    <products>
+      <product UPC="{F2B0459A-642B-4E9F-8CAE-41B96A8B367C}" UPV="17.0.0"/>
+      <product UPC="{DA880F8E-3C33-4279-9BE7-394090B42263}" UPV="17.0.0"/>
+      <product UPC="{DCA7BB9E-D45A-4269-967B-C38EA46FAFA6}" UPV="17.0.0"/>
+      <product UPC="{80E262AF-3B89-4EBA-AD9B-80F2FC66B495}" UPV="17.0.0"/>
+      <product UPC="{883E8A94-1250-442B-BB63-464792C2ED3C}" UPV="17.0.0"/>
+      <product UPC="{BA177DF2-9BD5-4779-AFAE-9253D65EF9DA}" UPV="17.0.0"/>
+      <product UPC="{73D43A23-22C6-48CC-A099-CD4926C74682}" UPV="17.0.0"/>
+      <product UPC="{BA177DF2-9BD5-4779-AFAE-9253D65EF9DA}" UPV="17.0.0"/>
+      <product UPC="{FC32F44C-12BD-4C68-81CB-FF387E0B4570}" UPV="17.0.0"/>
+      <product UPC="{BA177DF2-9BD5-4779-AFAE-9253D65EF9DA}" UPV="17.0.0"/>
+      <product UPC="{163FCF6B-145A-457F-B39A-C54FB38543FD}" UPV="17.0.0"/>
+      <product UPC="{7415AB68-61A3-423B-88E1-5B5338E45C84}" UPV="17.0.0"/>
+      <product UPC="{AAF49272-8ADA-46F3-ACFA-7F77B09A8FCE}" UPV="17.0.0"/>
+      <product UPC="{746DA3F9-FFE8-46CA-894E-BDD392E57D9A}" UPV="17.0.0"/>
+      <product UPC="{165F6371-714F-4264-BBFA-F09106D9171A}" UPV="17.00.49154"/>
+      <product UPC="{21C66DBF-3B58-4F62-A305-6AA8F4F4CC40}" UPV="15.00.49153"/>
+      <product UPC="{CA021939-E0DC-4919-9C72-265568997B6E}" UPV="17.00.49154"/>
+      <product UPC="{CF103ACD-97FB-4488-B4D0-FA30B5830DBC}" UPV="17.00.49154"/>
+      <product UPC="{7649C99C-FAE5-4451-9BC9-AA86989F2B35}" UPV="17.00.49155"/>
+      <product UPC="{06E26C3D-E6C6-4610-A038-258CAD1F6A27}" UPV="17.00.49154"/>
+      <product UPC="{2423B94D-3F80-4ACF-8A70-6F915686A010}" UPV="17.00.49153"/>
+      <product UPC="{4694420A-B354-4158-B50D-796AA0FE9954}" UPV="17.00.49154"/>
+      <product UPC="{2D07DEBE-F8D7-4324-879F-AACAD0EDB107}" UPV="17.00.49154"/>
+      <product UPC="{14D76B65-E5A7-4550-8185-44CD8378D968}" UPV="17.00.49154"/>
+      <product UPC="{DFF23744-E06E-4984-8160-7439424B9145}" UPV="5.5.0"/>
+      <product UPC="{C0E6F5E5-6EB8-4FBB-A1C4-A707D5FA7B1A}" UPV="4.62.49152"/>
+      <product UPC="{6C7F4418-717F-4CA1-908D-9241950E40AB}" UPV="17.00.49153"/>
+      <product UPC="{3CAF4A2C-C24B-4915-82DD-B2364BF2C0E2}" UPV="2.10.49152"/>
+      <product UPC="{9A70C7B7-6903-4ADC-A7D1-DB981252BC15}" UPV="17.0.0"/>
+      <product UPC="{2B727AE8-0238-4687-825E-C8DFEA3448BD}" UPV="17.0.0"/>
+      <product UPC="{B0CAF85C-5484-4FCD-BF9D-20EAF483A913}" UPV="6.8.1"/>
+      <product UPC="{8071C953-8CCB-404B-B858-FDD81F34FA9D}" UPV="16.10.49152"/>
+      <product UPC="{39263199-FDAC-4756-8318-E3AC3B276DFD}" UPV="17.0.0"/>
+      <product UPC="{F1CF1E45-A5DB-1AC8-2506-A79CA56E362B}" UPV="17.0.0"/>
+      <product UPC="{22217667-EC0B-4989-8478-83AC0297FEB1}" UPV="17.0.0"/>
+      <product UPC="{DEF62E86-0CD9-4F2A-AF2C-433315E336C4}" UPV="17.0.0"/>
+      <product UPC="{D93B1C0B-35E1-4F3E-7994-D41D561E495D}" UPV="17.0.0"/>
+      <product UPC="{F5A564D7-6CD9-4360-A032-E4E6B1A1BD81}" UPV="17.0.0"/>
+      <product UPC="{AA4699E5-DE2D-4530-ADFE-052D6E1F156A}" UPV="17.0.0"/>
+      <product UPC="{5FFD8411-126F-4786-B462-4677DF12A2BF}" UPV="17.0.0"/>
+      <product UPC="{2FB5F095-11E8-4723-9011-4EE9DCD9BEE6}" UPV="17.0.0"/>
+      <product UPC="{6119C43C-B47A-4F5D-BF64-977E510D0761}" UPV="15.0.0"/>
+      <product UPC="{E72BD916-5789-4467-808E-7B0CDE49E479}" UPV="17.0.0"/>
+      <product UPC="{7AD2515E-03AD-4962-B444-81E2904F4728}" UPV="17.0.0"/>
+      <product UPC="{FD840562-ED10-B90B-516D-B4266FF17E3D}" UPV="17.0.0"/>
+      <product UPC="{69491C14-31D4-FD1B-50AD-91B455BFA109}" UPV="17.0.0"/>
+      <product UPC="{01502CF1-AD3B-9311-6825-B870CB1101CF}" UPV="17.0.0"/>
+      <product UPC="{9FD9C452-C4DB-40A3-A24F-21F944007C0D}" UPV="15.0.1"/>
+      <product UPC="{F79021AC-51E7-4E1B-B6FF-FDABD12C7851}" UPV="15.0.1"/>
+      <product UPC="{F79021AC-51E7-4E1B-B6FF-FDABD12C7851}" UPV="17.0.0"/>
+      <product UPC="{99D796C3-2E53-4839-A25B-22C26B029103}" UPV="15.1.8"/>
+      <product UPC="{99D796C3-2E53-4839-A25B-22C26B029103}" UPV="17.0.0"/>
+      <product UPC="{C7BECC19-BF54-4D30-AB46-36CB0F132A95}" UPV="15.1.1"/>
+      <product UPC="{C7BECC19-BF54-4D30-AB46-36CB0F132A95}" UPV="17.0.0"/>
+      <product UPC="{98E299BA-DEE3-4DD4-87CC-C2C5A51F8497}" UPV="17.0.0"/>
+      <product UPC="{707E92E7-7203-4864-B78B-095B98DE4FB5}" UPV="17.0.0"/>
+      <product UPC="{EBFB4A39-BA18-46ED-8BD8-B68329AE6C63}" UPV="17.0.0"/>
+      <product UPC="{2EA04F3F-C366-47B0-A801-9618AEE33AEE}" UPV="17.0.0"/>
+      <product UPC="{6890EBDE-4E03-4888-AC82-56134B1CC1CA}" UPV="17.0.0"/>
+      <product UPC="{686B8442-1F2D-4821-B40F-A1F5BD419BB8}" UPV="17.0.0"/>
+      <product UPC="{F8DDE999-CE37-4251-9233-5EDA85F0FA38}" UPV="17.0.0"/>
+      <product UPC="{D90306B6-6018-48D8-9D5E-624F68AD2D7E}" UPV="17.0.0"/>
+      <product UPC="{388C9532-951E-4AB2-8B98-D0C6708C75D2}" UPV="17.0.0"/>
+      <product UPC="{29D354D8-3E7C-4C8F-B47C-40FEFC6518EB}" UPV="15.0.1"/>
+      <product UPC="{29D354D8-3E7C-4C8F-B47C-40FEFC6518EB}" UPV="17.0.0"/>
+      <product UPC="{769BB00F-977B-4908-8724-4E61A447D3A0}" UPV="17.00.49152"/>
+      <product UPC="{D5EA3A08-AD02-47C3-929E-7285BE9122B7}" UPV="17.00.49154"/>
+      <product UPC="{969970C9-8D34-471B-BFCE-582A529D7F9C}" UPV="15.0.1"/>
+      <product UPC="{969970C9-8D34-471B-BFCE-582A529D7F9C}" UPV="17.0.0"/>
+      <product UPC="{40C09552-571C-41BF-A2E5-57DE7BECB645}" UPV="17.00.49154"/>
+      <product UPC="{603648C2-F0DE-4202-AB79-F5A5573BE1BC}" UPV="8.63.49152"/>
+      <product UPC="{C31FF6ED-6DD7-4D12-AE69-C1859CAB915F}" UPV="17.00.49152"/>
+      <product UPC="{F4E16C1F-B3DF-41F8-91F9-89ECBFF985B9}" UPV="17.00.49154"/>
+      <product UPC="{CAE83C10-10F4-49EC-BC36-28CB5E064EB7}" UPV="17.00.49154"/>
+      <product UPC="{55EB9A01-5527-417E-D085-2AD662D3CE7D}" UPV="17.0.0"/>
+      <product UPC="{6785DFE6-F236-4D0A-957D-7C6AE8E75386}" UPV="5.6.2"/>
+      <product UPC="{03B4905D-37CC-4BA0-AE3D-829F7BE8A1CA}" UPV="17.00.49152"/>
+      <product UPC="{B6049E95-F70A-46B7-AE71-1C8045987260}" UPV="17.00.49152"/>
+      <product UPC="{F54E3C58-BDE8-49D1-9E78-B815B7B4749C}" UPV="17.0.0"/>
+      <product UPC="{69AB2A93-E9BA-46B8-ABA3-52BEB90D4DEA}" UPV="17.0.06654"/>
+      <product UPC="{F9E80395-3126-43EC-814B-E5A747BF9A05}" UPV="17.0.0"/>
+      <product UPC="{11DB38BB-D297-46A8-AE8A-89926768EBCD}" UPV="17.00.49154"/>
+      <product UPC="{6C1BB3D4-8DC8-40B8-8C10-AB706AE2F3E7}" UPV="17.00.49152"/>
+      <product UPC="{A5B75F5D-E83E-48DA-8525-F049299364E5}" UPV="17.0.0"/>
+      <product UPC="{87E2F050-5707-4237-8E95-2EC14D5C62EF}" UPV="17.0.0"/>
+      <product UPC="{69CD3987-B5D3-4BE5-A59E-346C07B1A21A}" UPV="17.0.0"/>
+      <product UPC="{F8B0CA5F-055E-4E39-A2EC-39F4660E0027}" UPV="16.0.0"/>
+      <product UPC="{83AB1B04-84AE-4280-948A-CEB3808AA628}" UPV="16.0.0"/>
+      <product UPC="{1DE69E75-1C1E-4A95-9321-39000554673B}" UPV="17.0.0"/>
+      <product UPC="{51928C23-AB7C-4050-8830-E3BDBCD951C4}" UPV="17.0.0"/>
+      <product UPC="{AFEBE076-DA6A-4402-B68F-8CF0FAE5F0ED}" UPV="17.0.0"/>
+      <product UPC="{33CD8EFC-0D08-11E4-B4B1-B2227CCE2B54}" UPV="17.0.0"/>
+      <product UPC="{0CA5A904-0D08-11E4-B4B1-B2227CCE2B54}" UPV="17.0.0"/>
+      <product UPC="{B11EF0D1-4572-4FC6-8595-A0987FECE56C}" UPV="17.0.0"/>
+      <product UPC="{70F40CAC-B0A7-449D-8AC9-E14D18EF73AC}" UPV="17.0.0"/>
+      <product UPC="{BBA8CE24-5B04-4AA1-BD4A-75B453662257}" UPV="17.0.0"/>
+      <product UPC="{71D6C352-447D-47F5-B26D-F3C1C3BF4EFA}" UPV="17.0.0"/>
+      <product UPC="{F0D3423D-BA79-409E-8C35-E7E3EA18E0DF}" UPV="17.0.0"/>
+      <product UPC="{D71C1D03-CA8F-4545-BDB5-103E99C719AE}" UPV="17.0.0"/>
+      <product UPC="{44804CE2-2845-445E-823F-41F34C35971A}" UPV="2.2.0"/>
+      <product UPC="{4AC897D8-117B-4076-C0BF-2932EAB6BB5A}" UPV="17.0.0"/>
+      <product UPC="{36D12883-82A6-4BE5-82DD-7FCBC50D2AEF}" UPV="17.0.0"/>
+      <product UPC="{51492825-69A3-83FD-B7B4-EA1BA29CB9F9}" UPV="17.0.0"/>
+      <product UPC="{CBA7EDB3-A142-43B6-B68B-A723624F1375}" UPV="4.0.0"/>
+      <product UPC="{6277CED1-7132-453B-B536-A52712CEC5A7}" UPV="5.9.0"/>
+      <product UPC="{F665E4C6-7245-4437-9C8C-2B4EF4BEAAE9}" UPV="17.0.0"/>
+      <product UPC="{A3842A3B-E327-4F68-BEFF-552BE6206AA4}" UPV="5.9.0"/>
+      <product UPC="{A1DD654C-E897-4C46-8077-12873C75D79D}" UPV="1.0.7.49152"/>
+      <product UPC="{77E8E609-803B-46F0-9851-211D0A7DA362}" UPV="2.2.0"/>
+      <product UPC="{0BF962F7-7E80-4C57-A989-8197424AFBB8}" UPV="17.0.0"/>
+      <product UPC="{73661077-6E79-4C84-99E5-EB0924AB36B7}" UPV="15.0.1"/>
+      <product UPC="{73661077-6E79-4C84-99E5-EB0924AB36B7}" UPV="17.0.0"/>
+      <product UPC="{5AEFE368-A98F-4907-95F8-0990C94D577D}" UPV="17.0.0"/>
+      <product UPC="{AB2B2694-7CF9-4CDD-8641-7555E1D59510}" UPV="17.0.0"/>
+      <product UPC="{540F6FCD-9570-43E6-9B0D-FB788B78DD98}" UPV="17.0.0"/>
+      <product UPC="{58118D91-FC4E-431F-418B-95E29A058B64}" UPV="17.0.0"/>
+      <product UPC="{FB99B180-68F3-4D20-A3B7-CABFEDAB7F59}" UPV="17.0.0"/>
+      <product UPC="{F7538062-9811-43C4-7A8C-3E2012650341}" UPV="17.0.0"/>
+      <product UPC="{3AE4BEFE-DAB9-4613-A7E1-07B23FE45B10}" UPV="17.0.0"/>
+      <product UPC="{9965C2A7-1464-4476-B183-C9AF8DC95231}" UPV="16.0.0"/>
+      <product UPC="{E0D4EF38-0650-47E9-8CA6-34473E6CE37A}" UPV="17.0.0"/>
+      <product UPC="{F95A8500-38C0-4AD3-BEE4-15DA5529C111}" UPV="17.0.0"/>
+      <product UPC="{FC2A5113-0F5B-4103-BFF6-E84624323EC5}" UPV="17.00.49152"/>
+      <product UPC="{784F5B15-D1DD-4F8F-961C-1E2AA561AF74}" UPV="17.00.49152"/>
+      <product UPC="{5FA25D7B-C3EF-4735-B79C-58FA0C13454C}" UPV="17.00.49152"/>
+      <product UPC="{F51127E2-3FF5-4A0E-8D4A-8159B9847D27}" UPV="17.00.49152"/>
+      <product UPC="{10B8149C-3CD7-401E-8492-A00FE42EAAD4}" UPV="17.0.0"/>
+      <product UPC="{D842EF4D-FD3E-41EA-8F6D-4A597CE0D6CC}" UPV="2.00.49152"/>
+      <product UPC="{26A28F6B-2A51-4D57-91A7-87407133BC53}" UPV="5.16.49152"/>
+      <product UPC="{B0738842-C659-410B-96B5-8BA3516F3F70}" UPV="17.00.49152"/>
+      <product UPC="{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}" UPV="17.0.0"/>
+      <product UPC="{4CD11BE6-6BB7-4082-8A27-C13771BC309B}" UPV="17.0.0"/>
+      <product UPC="{8DEFF217-D0D3-4C27-88EC-33236613491F}" UPV="17.00.49152"/>
+      <product UPC="{11D580A9-CAA9-4FAE-ACCE-008751A7AE9F}" UPV="16.0.1.24"/>
+      <product UPC="{8839DD59-B53B-4B86-8C5C-DDB219F9EB3A}" UPV="9.10.49152"/>
+      <product UPC="{68C3AC19-656F-4216-8335-4A938FCF5201}" UPV="10.10.49152"/>
+      <product UPC="{4A26AAA1-9B05-48E3-B9CF-F91B75FC1262}" UPV="14.13.49153"/>
+      <product UPC="{535BF539-F251-468B-9F11-BB4072773D70}" UPV="17.0.0"/>
+      <product UPC="{795BA8D7-CBB8-4208-BCB6-81B52E838277}" UPV="17.0.0"/>
+      <product UPC="{58587A03-ED0B-4C19-826D-31C3401B31AF}" UPV="16.0.0"/>
+      <product UPC="{7E21D570-3957-46AE-A66B-ABC5F33F0ECB}" UPV="16.0.0"/>
+      <product UPC="{C6D489D2-55F2-AE9E-88AA-656450D9CAD2}" UPV="2.7.8"/>
+      <product UPC="{5D79C0C9-A15B-4A9B-AACF-1A2CF7761B70}" UPV="17.00.49152"/>
+      <product ProductVersion="17.00.49153" UpgradeCode="{E0A6DCC7-A603-4163-A0F3-F1EF503089B7}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{C1EF7A68-D0A5-4EF8-8AB8-F89BEDF0D79B}"/>
+      <product ProductVersion="8.0.0101" UpgradeCode="{0CDE938F-CDB1-4DD7-A18A-52B323102CE7}"/>
+      <product ProductVersion="17.00.49154" UpgradeCode="{5CF04E1E-F5D2-43AB-B9F1-5DCFB0DF6CB6}"/>
+      <product ProductVersion="17.00.49155" UpgradeCode="{6A61602B-C99A-49C8-A607-7FADD5124218}"/>
+      <product ProductVersion="17.00.49154" UpgradeCode="{DEA0FF7B-E7F3-45A4-80EA-CD21AAD8B94E}"/>
+      <product ProductVersion="17.00.49153" UpgradeCode="{F8D3F894-F912-4A7E-9318-0C547D37D033}"/>
+      <product ProductVersion="17.00.49154" UpgradeCode="{1AB6D8FF-2C26-4BC0-B35B-AFC94D6B0F0B}"/>
+      <product ProductVersion="17.00.49154" UpgradeCode="{F31A3240-633D-4040-AC85-0168D0F48B5F}"/>
+      <product ProductVersion="17.00.49154" UpgradeCode="{D14439A1-CE0E-49DE-9BED-1D89C532F9E4}"/>
+      <product ProductVersion="2.70.346" UpgradeCode="{A298C267-3CE7-4B95-9D8B-BCB6672BC7B9}"/>
+      <product ProductVersion="5.50.49152" UpgradeCode="{6D47A181-7CE8-4DB2-92BC-521FF4BB5567}"/>
+      <product ProductVersion="4.62.49152" UpgradeCode="{22A7C1E9-D26D-4226-86C0-BFAD27D9365A}"/>
+      <product ProductVersion="4.62.49152" UpgradeCode="{C2B25CCD-1C69-4AC7-A83F-FFE6F936BB04}"/>
+      <product ProductVersion="2.10.49152" UpgradeCode="{0058F63B-2BD1-4BEF-89BC-DAA74C726870}"/>
+      <product ProductVersion="17.0.234" UpgradeCode="{C7846BAE-E048-4342-8645-8D9B10D8B68F}"/>
+      <product ProductVersion="17.0.234" UpgradeCode="{7804F495-62D3-43AB-B757-C77F9C798350}"/>
+      <product ProductVersion="17.0.234" UpgradeCode="{EE8CAEE7-07DF-44F2-9584-5EEAAA2D0C4B}"/>
+      <product ProductVersion="17.0.234" UpgradeCode="{DC669FFB-AA39-4FE5-AF97-323288B1337E}"/>
+      <product ProductVersion="17.0.234" UpgradeCode="{811C31EA-6BA5-4397-B4B5-ACAACB053B0D}"/>
+      <product ProductVersion="17.0.234" UpgradeCode="{9E2401B2-EDB8-4FAF-B0FF-D2801E3C9C60}"/>
+      <product ProductVersion="17.0.234" UpgradeCode="{D6B0AF80-1B82-4B87-94EA-219ADE4EB883}"/>
+      <product ProductVersion="17.0.234" UpgradeCode="{E87A5B54-7589-4DCE-BF76-032C21D97A3B}"/>
+      <product ProductVersion="17.0.916" UpgradeCode="{90DC7AC9-20F8-44FF-BBB7-DB3C8CCD1E68}"/>
+      <product ProductVersion="6.81.49152" UpgradeCode="{26E5B208-24E7-4712-8358-1718B1DC5076}"/>
+      <product ProductVersion="16.10.49152" UpgradeCode="{44F184C9-F61E-4D38-940D-6803E2F6F311}"/>
+      <product ProductVersion="17.0.208" UpgradeCode="{07D2593B-88FE-430D-AB86-3626968B12E3}"/>
+      <product ProductVersion="15.18.49152" UpgradeCode="{3208ABC7-F535-4A01-9E28-E80B5E922AB9}"/>
+      <product ProductVersion="17.00.49153" UpgradeCode="{1F26181B-7ADD-482F-BE80-20B5023C2580}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{9BC48AFE-B8CC-4C96-B90F-C6C08ED52465}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{DD8CE8FD-329B-49F9-A1C9-6235AE793E54}"/>
+      <product ProductVersion="15.01.49152" UpgradeCode="{22B3F4FD-A882-4272-AB17-29D07770FACF}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{BC96E807-EDD4-4CF4-A79C-F62B6F690A44}"/>
+      <product ProductVersion="17.00.49154" UpgradeCode="{F17F2F80-5B15-499D-AA54-9C80FE178ACB}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{CFF3D0BB-CB86-4E4E-AAC4-50434C62F430}"/>
+      <product ProductVersion="1.0.1" UpgradeCode="{9AC94877-534E-480A-8770-90007DCDD5FB}"/>
+      <product ProductVersion="17.00.49154" UpgradeCode="{EAD464C4-8204-47D3-96E9-B7F2C42BCA6A}"/>
+      <product ProductVersion="5.62.49152" UpgradeCode="{54E60028-6CDC-3CB1-381F-4E51DD8CCD4E}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{ABA7D958-8704-4395-9F06-A6F3AC59E948}"/>
+      <product ProductVersion="17.00.49155" UpgradeCode="{E19027C7-041A-EC1D-35B0-601B42088734}"/>
+      <product ProductVersion="17.0.06654" UpgradeCode="{EF495A29-3F84-4E8B-A0ED-B9DE58B80033}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{F43EAC0A-56BD-4C51-86E5-2AA91DD7EC78}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{91F4BF2F-37EA-4861-8B46-4327AD8F7565}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{80521318-1367-47B5-B3AC-BDE66CDF9A2C}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{CCD7729F-4B50-4E91-9A67-A3B1F932F350}"/>
+      <product ProductVersion="17.00.49153" UpgradeCode="{E250781F-9252-44B1-9482-EBBCE06C9BE1}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{879F6C7B-F80A-4224-80EE-A2D7D6A2A8BB}"/>
+      <product ProductVersion="5.90.49152" UpgradeCode="{BA8875A0-3767-46E7-B3DE-09275F2716A0}"/>
+      <product ProductVersion="5.90.49152" UpgradeCode="{DBF9AE3A-A372-4A5A-B473-CC37A0F607F4}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{E8A4850C-5FDA-4C58-BE1D-68DCA120D0BB}"/>
+      <product ProductVersion="17.0.57" UpgradeCode="{8ED4296D-1D1E-47F8-9F06-25E2A4450F60}"/>
+      <product ProductVersion="17.0.56" UpgradeCode="{5B17EDE1-E298-4505-A15F-5D3C42078A5E}"/>
+      <product ProductVersion="17.00.49153" UpgradeCode="{9F41DEC8-7BC2-46BC-BB86-BD76FA24AB3A}"/>
+      <product ProductVersion="17.0.0" UpgradeCode="{09F056A7-A421-4827-8514-430D9E6E1D62}"/>
+      <product ProductVersion="17.00.49153" UpgradeCode="{AA14FF2B-A68E-46FF-8E13-CEC408EAF638}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{9E6F8810-2B42-4BE7-B2A9-FF923F67D93A}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{7F1AD3C9-7C3F-4F28-9361-F009C4708B20}"/>
+      <product ProductVersion="2.00.49152" UpgradeCode="{1D29F576-DD70-4519-9E7D-08E895F409A4}"/>
+      <product ProductVersion="5.16.49152" UpgradeCode="{901B4C53-DD2C-42A7-B6E4-399F5D1E9C37}"/>
+      <product ProductVersion="5.16.49152" UpgradeCode="{C367F489-E6B3-4FB8-9232-89CB32371A6B}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{69DC1832-0E76-4A9E-AE7F-825A202F6784}"/>
+      <product ProductVersion="16.01.49152" UpgradeCode="{E14C752C-9307-4A71-B65E-E7B9CE0D063C}"/>
+      <product ProductVersion="9.10.49152" UpgradeCode="{C7ED6025-78DA-40E3-913B-310610D5C7AB}"/>
+      <product ProductVersion="10.10.49152" UpgradeCode="{CE498322-C378-4658-BA31-2E893787DE28}"/>
+      <product ProductVersion="14.13.49153" UpgradeCode="{CA17C748-8B26-41C5-8E58-BCAB06909BFC}"/>
+      <product ProductVersion="14.13.49153" UpgradeCode="{ED7E4769-125A-49EC-8865-16560163B673}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{55805794-FDD9-4E71-8AD8-9896517F98C8}"/>
+      <product ProductVersion="16.00.49152" UpgradeCode="{8DDC29D7-8C0F-4528-9A3D-A5F98ECF2D41}"/>
+      <product ProductVersion="2.78.49153" UpgradeCode="{AA45DC50-D076-4372-C70C-36AFD5F35A95}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{62A55332-6B77-48C2-BA40-AD1E9694B2B3}"/>
+    </products>
+  </distribution>
+
+  <distribution id="{E363A1A4-2269-42E4-A63B-7AC26408999D}">
+    <distId GUID="{78A91FA3-1934-4784-8542-D76D43AC93B1}" languages="0009,0007" packageGUID="{E363A1A4-2269-42E4-A63B-7AC26408999D}" version="14.1.0"/>
+    <inputRoot suiteVolume="1">Distributions\d001\</inputRoot>
+    <serialGroupId>{E363A1A4-2269-42E4-A63B-7AC26408999D}</serialGroupId>
+    <directoryId>NIDIR</directoryId>
+    <EULAId>MicrochipHiTechCombined</EULAId>
+    <EULAId>NIStandardReleased</EULAId>
+    <distributionType>Application</distributionType>
+    <name language="0009">NI Circuit Design Suite 14.1 Education</name>
+    <name language="0007">NI Circuit Design Suite 14.1 Education</name>
+    <warnings>
+      <warning isFatal="true">
+        <header language="0007">Runtime für Microsoft Visual C++ 2015</header>
+        <header language="0009">Microsoft Visual C++ 2015 Run-Time</header>
+        <info language="0007">Sie müssen Windows aktualisieren und Microsoft KB 2919355 installieren. Dieses Update ist eine Voraussetzung für die Software der Microsoft Visual C++ 2015 Runtime. Weitere Informationen finden Sie auf ni.com/info nach Eingabe des Infocodes KB2919355.</info>
+        <info language="0009">You must update Windows to install Microsoft KB 2919355, which is prerequisite for the Microsoft Visual C++ 2015 Run-Time software. For more information, visit ni.com/info and enter the Info Code: KB2919355.</info>
+        <condition>NOT NIRUNNINGINMERGED AND NOT KB2919355DETECTED="YES"</condition>
+      </warning>
+    </warnings>
+    <setupExeVersion>16.0.0.180</setupExeVersion>
+    <minimumRequiredVersionOfMetaSuiteBuilder>16.0.0</minimumRequiredVersionOfMetaSuiteBuilder>
+    <activation>
+      <licensedProduct isCore="true" version="14.1.0">Multisim_Edu_PKG</licensedProduct>
+      <licensedProduct isCore="true" version="14.1.0">Multisim_StuFull_PKG</licensedProduct>
+      <licensedProduct isCore="true" version="14.1.0">Ultiboard_Edu_PKG</licensedProduct>
+      <licensedProduct isCore="true" version="14.1.0">Ultiboard_StuFull_PKG</licensedProduct>
+    </activation>
+    <products>
+      <product UPC="{80E262AF-3B89-4EBA-AD9B-80F2FC66B495}" UPV="14.0.0"/>
+      <product UPC="{CA021939-E0DC-4919-9C72-265568997B6E}" UPV="13.0.2278"/>
+      <product UPC="{CF103ACD-97FB-4488-B4D0-FA30B5830DBC}" UPV="13.0.2278"/>
+      <product UPC="{7649C99C-FAE5-4451-9BC9-AA86989F2B35}" UPV="13.0.2278"/>
+      <product UPC="{06E26C3D-E6C6-4610-A038-258CAD1F6A27}" UPV="13.0.2278"/>
+      <product UPC="{2423B94D-3F80-4ACF-8A70-6F915686A010}" UPV="13.0.2278"/>
+      <product UPC="{4694420A-B354-4158-B50D-796AA0FE9954}" UPV="13.0.2278"/>
+      <product UPC="{2D07DEBE-F8D7-4324-879F-AACAD0EDB107}" UPV="13.0.2278"/>
+      <product UPC="{14D76B65-E5A7-4550-8185-44CD8378D968}" UPV="13.0.2278"/>
+      <product UPC="{DFF23744-E06E-4984-8160-7439424B9145}" UPV="5.2.0"/>
+      <product UPC="{C0E6F5E5-6EB8-4FBB-A1C4-A707D5FA7B1A}" UPV="4.61.49152"/>
+      <product UPC="{6C7F4418-717F-4CA1-908D-9241950E40AB}" UPV="16.0.32"/>
+      <product UPC="{3CAF4A2C-C24B-4915-82DD-B2364BF2C0E2}" UPV="2.0.3"/>
+      <product UPC="{DEF62E86-0CD9-4F2A-AF2C-433315E336C4}" UPV="16.0.0"/>
+      <product UPC="{D93B1C0B-35E1-4F3E-7994-D41D561E495D}" UPV="16.0.0"/>
+      <product UPC="{F79021AC-51E7-4E1B-B6FF-FDABD12C7851}" UPV="15.0.0"/>
+      <product UPC="{F79021AC-51E7-4E1B-B6FF-FDABD12C7851}" UPV="16.0.0"/>
+      <product UPC="{99D796C3-2E53-4839-A25B-22C26B029103}" UPV="15.1.5"/>
+      <product UPC="{99D796C3-2E53-4839-A25B-22C26B029103}" UPV="16.0.1"/>
+      <product UPC="{C7BECC19-BF54-4D30-AB46-36CB0F132A95}" UPV="15.1.0"/>
+      <product UPC="{C7BECC19-BF54-4D30-AB46-36CB0F132A95}" UPV="16.0.0"/>
+      <product UPC="{EBFB4A39-BA18-46ED-8BD8-B68329AE6C63}" UPV="15.0.0"/>
+      <product UPC="{29D354D8-3E7C-4C8F-B47C-40FEFC6518EB}" UPV="15.0.0"/>
+      <product UPC="{29D354D8-3E7C-4C8F-B47C-40FEFC6518EB}" UPV="16.0.0"/>
+      <product UPC="{D5EA3A08-AD02-47C3-929E-7285BE9122B7}" UPV="16.0.180"/>
+      <product UPC="{969970C9-8D34-471B-BFCE-582A529D7F9C}" UPV="14.0.0"/>
+      <product UPC="{969970C9-8D34-471B-BFCE-582A529D7F9C}" UPV="15.0.0"/>
+      <product UPC="{969970C9-8D34-471B-BFCE-582A529D7F9C}" UPV="16.0.0"/>
+      <product UPC="{603648C2-F0DE-4202-AB79-F5A5573BE1BC}" UPV="8.6.10603"/>
+      <product UPC="{4AB5C609-E6BD-49D8-ADA6-7C277964E037}" UPV="8.6.10603"/>
+      <product UPC="{F4E16C1F-B3DF-41F8-91F9-89ECBFF985B9}" UPV="16.0.180"/>
+      <product UPC="{CAE83C10-10F4-49EC-BC36-28CB5E064EB7}" UPV="16.0.180"/>
+      <product UPC="{55EB9A01-5527-417E-D085-2AD662D3CE7D}" UPV="13.0.0"/>
+      <product UPC="{6785DFE6-F236-4D0A-957D-7C6AE8E75386}" UPV="5.5.2"/>
+      <product UPC="{03B4905D-37CC-4BA0-AE3D-829F7BE8A1CA}" UPV="14.00.49152"/>
+      <product UPC="{69AB2A93-E9BA-46B8-ABA3-52BEB90D4DEA}" UPV="15.0.26343"/>
+      <product UPC="{F9E80395-3126-43EC-814B-E5A747BF9A05}" UPV="16.0.0"/>
+      <product UPC="{11DB38BB-D297-46A8-AE8A-89926768EBCD}" UPV="16.0.180"/>
+      <product UPC="{87E2F050-5707-4237-8E95-2EC14D5C62EF}" UPV="16.0.0"/>
+      <product UPC="{69CD3987-B5D3-4BE5-A59E-346C07B1A21A}" UPV="14.0.0"/>
+      <product UPC="{D71C1D03-CA8F-4545-BDB5-103E99C719AE}" UPV="16.0.0"/>
+      <product UPC="{4AC897D8-117B-4076-C0BF-2932EAB6BB5A}" UPV="16.0.0"/>
+      <product UPC="{F3B227A0-2DD3-41EA-AC35-CD80CE6B6C65}" UPV="14.1.0"/>
+      <product UPC="{44C7C3E3-1FA9-4D23-8304-AECA2367F1E6}" UPV="14.1.0"/>
+      <product UPC="{6A7F1E1D-89D7-4E27-9992-C322BD432F82}" UPV="14.1.0"/>
+      <product UPC="{66738ACD-B9E9-477D-9FF3-DBEF5091BD1E}" UPV="14.1.0"/>
+      <product UPC="{788665F5-049B-4EB3-81A5-CC54C5F0DAF8}" UPV="14.1.0"/>
+      <product UPC="{8422FD91-A387-4DEA-84F5-1BE31D7D4D48}" UPV="14.1.0"/>
+      <product UPC="{8755F2E5-4CD2-4362-8204-96E55F66D34E}" UPV="14.1.0"/>
+      <product UPC="{1031ABC7-1A1B-4F59-9DD1-61FF5250234D}" UPV="14.1.0"/>
+      <product UPC="{E7B9453C-C3B9-46AA-AE54-1B1752121768}" UPV="14.1.0"/>
+      <product UPC="{73AA7387-9FB1-403A-8481-C78D69AF24A3}" UPV="14.1.0"/>
+      <product UPC="{36D12883-82A6-4BE5-82DD-7FCBC50D2AEF}" UPV="16.0.0"/>
+      <product UPC="{CBA7EDB3-A142-43B6-B68B-A723624F1375}" UPV="3.7.0"/>
+      <product UPC="{6277CED1-7132-453B-B536-A52712CEC5A7}" UPV="5.8.0"/>
+      <product UPC="{A3842A3B-E327-4F68-BEFF-552BE6206AA4}" UPV="5.8.0"/>
+      <product UPC="{73661077-6E79-4C84-99E5-EB0924AB36B7}" UPV="15.0.0"/>
+      <product UPC="{73661077-6E79-4C84-99E5-EB0924AB36B7}" UPV="16.0.0"/>
+      <product UPC="{5AEFE368-A98F-4907-95F8-0990C94D577D}" UPV="16.0.0"/>
+      <product UPC="{AB2B2694-7CF9-4CDD-8641-7555E1D59510}" UPV="1.0.0"/>
+      <product UPC="{540F6FCD-9570-43E6-9B0D-FB788B78DD98}" UPV="16.0.0"/>
+      <product UPC="{58118D91-FC4E-431F-418B-95E29A058B64}" UPV="16.0.0"/>
+      <product UPC="{FB99B180-68F3-4D20-A3B7-CABFEDAB7F59}" UPV="16.0.0"/>
+      <product UPC="{5FA25D7B-C3EF-4735-B79C-58FA0C13454C}" UPV="14.00.49152"/>
+      <product UPC="{D842EF4D-FD3E-41EA-8F6D-4A597CE0D6CC}" UPV="1.0.1"/>
+      <product UPC="{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}" UPV="16.0.0"/>
+      <product UPC="{4CD11BE6-6BB7-4082-8A27-C13771BC309B}" UPV="16.0.0"/>
+      <product UPC="{11D580A9-CAA9-4FAE-ACCE-008751A7AE9F}" UPV="16.0.0.33"/>
+      <product UPC="{8839DD59-B53B-4B86-8C5C-DDB219F9EB3A}" UPV="9.0.401"/>
+      <product UPC="{9087D044-6BFC-48E7-8B60-4E427CC83B05}" UPV="9.00.49152"/>
+      <product UPC="{68C3AC19-656F-4216-8335-4A938FCF5201}" UPV="10.0.100"/>
+      <product UPC="{64C67AFA-DC20-4BC4-B9DB-B0A98D8210F5}" UPV="10.10.16385"/>
+      <product UPC="{4A26AAA1-9B05-48E3-B9CF-F91B75FC1262}" UPV="14.0.23509"/>
+      <product UPC="{5D79C0C9-A15B-4A9B-AACF-1A2CF7761B70}" UPV="14.00.49152"/>
+      <product ProductVersion="14.0.5" UpgradeCode="{C1EF7A68-D0A5-4EF8-8AB8-F89BEDF0D79B}"/>
+      <product ProductVersion="13.0.2278" UpgradeCode="{5CF04E1E-F5D2-43AB-B9F1-5DCFB0DF6CB6}"/>
+      <product ProductVersion="13.0.2278" UpgradeCode="{6A61602B-C99A-49C8-A607-7FADD5124218}"/>
+      <product ProductVersion="13.0.2278" UpgradeCode="{DEA0FF7B-E7F3-45A4-80EA-CD21AAD8B94E}"/>
+      <product ProductVersion="13.0.2278" UpgradeCode="{F8D3F894-F912-4A7E-9318-0C547D37D033}"/>
+      <product ProductVersion="13.0.2278" UpgradeCode="{1AB6D8FF-2C26-4BC0-B35B-AFC94D6B0F0B}"/>
+      <product ProductVersion="13.0.2278" UpgradeCode="{F31A3240-633D-4040-AC85-0168D0F48B5F}"/>
+      <product ProductVersion="13.0.2278" UpgradeCode="{D14439A1-CE0E-49DE-9BED-1D89C532F9E4}"/>
+      <product ProductVersion="5.2.218" UpgradeCode="{6D47A181-7CE8-4DB2-92BC-521FF4BB5567}"/>
+      <product ProductVersion="4.61.49152" UpgradeCode="{22A7C1E9-D26D-4226-86C0-BFAD27D9365A}"/>
+      <product ProductVersion="2.0.3" UpgradeCode="{0058F63B-2BD1-4BEF-89BC-DAA74C726870}"/>
+      <product ProductVersion="15.1.65" UpgradeCode="{3208ABC7-F535-4A01-9E28-E80B5E922AB9}"/>
+      <product ProductVersion="16.0.193" UpgradeCode="{BF4482B3-77D3-4C9E-B31C-67DB5AA7E012}"/>
+      <product ProductVersion="15.0.335" UpgradeCode="{9BC48AFE-B8CC-4C96-B90F-C6C08ED52465}"/>
+      <product ProductVersion="1.0.861.0" UpgradeCode="{54809C09-9598-43F3-8056-A7E634605F67}"/>
+      <product ProductVersion="14.0.6" UpgradeCode="{0EE2FD57-43C0-49AD-9515-E6D895F45F35}"/>
+      <product ProductVersion="15.0.6" UpgradeCode="{22B3F4FD-A882-4272-AB17-29D07770FACF}"/>
+      <product ProductVersion="16.0.4" UpgradeCode="{3D8C74AF-2561-417D-97A2-57E04DC1FD79}"/>
+      <product ProductVersion="13.0.3" UpgradeCode="{EAD464C4-8204-47D3-96E9-B7F2C42BCA6A}"/>
+      <product ProductVersion="14.00.49152" UpgradeCode="{ABA7D958-8704-4395-9F06-A6F3AC59E948}"/>
+      <product ProductVersion="15.0.26343" UpgradeCode="{EF495A29-3F84-4E8B-A0ED-B9DE58B80033}"/>
+      <product ProductVersion="16.0.203" UpgradeCode="{F43EAC0A-56BD-4C51-86E5-2AA91DD7EC78}"/>
+      <product ProductVersion="14.0.302" UpgradeCode="{80521318-1367-47B5-B3AC-BDE66CDF9A2C}"/>
+      <product ProductVersion="16.0.148" UpgradeCode="{E250781F-9252-44B1-9482-EBBCE06C9BE1}"/>
+      <product ProductVersion="16.0.100" UpgradeCode="{879F6C7B-F80A-4224-80EE-A2D7D6A2A8BB}"/>
+      <product ProductVersion="5.8.105" UpgradeCode="{BA8875A0-3767-46E7-B3DE-09275F2716A0}"/>
+      <product ProductVersion="5.8.94" UpgradeCode="{DBF9AE3A-A372-4A5A-B473-CC37A0F607F4}"/>
+      <product ProductVersion="16.0.181" UpgradeCode="{E8A4850C-5FDA-4C58-BE1D-68DCA120D0BB}"/>
+      <product ProductVersion="16.0.152" UpgradeCode="{8ED4296D-1D1E-47F8-9F06-25E2A4450F60}"/>
+      <product ProductVersion="16.0.149" UpgradeCode="{5B17EDE1-E298-4505-A15F-5D3C42078A5E}"/>
+      <product ProductVersion="16.0.141" UpgradeCode="{9F41DEC8-7BC2-46BC-BB86-BD76FA24AB3A}"/>
+      <product ProductVersion="14.00.49152" UpgradeCode="{7F1AD3C9-7C3F-4F28-9361-F009C4708B20}"/>
+      <product ProductVersion="1.0.29.0" UpgradeCode="{1D29F576-DD70-4519-9E7D-08E895F409A4}"/>
+      <product ProductVersion="16.0.14" UpgradeCode="{69DC1832-0E76-4A9E-AE7F-825A202F6784}"/>
+      <product ProductVersion="16.00.49155" UpgradeCode="{E14C752C-9307-4A71-B65E-E7B9CE0D063C}"/>
+      <product ProductVersion="9.0.401" UpgradeCode="{C7ED6025-78DA-40E3-913B-310610D5C7AB}"/>
+      <product ProductVersion="10.0.100" UpgradeCode="{CE498322-C378-4658-BA31-2E893787DE28}"/>
+      <product ProductVersion="14.0.23509" UpgradeCode="{CA17C748-8B26-41C5-8E58-BCAB06909BFC}"/>
+      <product ProductVersion="14.0.23509" UpgradeCode="{ED7E4769-125A-49EC-8865-16560163B673}"/>
+      <product ProductVersion="14.00.49152" UpgradeCode="{62A55332-6B77-48C2-BA40-AD1E9694B2B3}"/>
+    </products>
+  </distribution>
+
+  <distribution hasNICertificate="true" id="{5650D585-B8A5-44E9-9AF3-9880F5FB9D1E}">
+    <distId GUID="{E00DE70B-09B2-4A64-2E61-C65F2945D207}" languages="0009" packageGUID="{5650D585-B8A5-44E9-9AF3-9880F5FB9D1E}" version="17.0.0"/>
+    <inputRoot suiteVolume="1">Distributions\d002\</inputRoot>
+    <EULAId>NIStandardReleased</EULAId>
+    <EULAId>SilverlightPrivacy_5.1</EULAId>
+    <EULAId>Silverlight_5.0</EULAId>
+    <distributionType>Application</distributionType>
+    <name language="0009">NI ELVISmx 17.0</name>
+    <installOptionSetId>NoCustomInstall</installOptionSetId>
+    <warnings>
+      <warning isFatal="true">
+        <header language="0009">Unsupported version of NI-DAQmx detected</header>
+        <info language="0009">A version of NI-DAQmx that is not supported on this operating system has been detected. You must cancel this installation and uninstall all unsupported National Instruments software before continuing. Visit ni.com/info and enter the Info Code CleanVista for more information.</info>
+        <condition>(DAQMXVERSIONNUMERIC&lt;850) AND (NOT NIRUNNINGINMERGED)</condition>
+      </warning>
+      <warning isFatal="true">
+        <header language="0009">Microsoft Visual C++ 2015 Run-Time</header>
+        <info language="0009">You must update Windows to install Microsoft KB 2919355, which is prerequisite for the Microsoft Visual C++ 2015 Run-Time software. For more information, visit ni.com/info and enter the Info Code: KB2919355.</info>
+        <condition>NOT NIRUNNINGINMERGED AND NOT KB2919355DETECTED="YES"</condition>
+      </warning>
+    </warnings>
+    <setupExeVersion>17.0.0.209</setupExeVersion>
+    <minimumRequiredVersionOfMetaSuiteBuilder>17.0.0</minimumRequiredVersionOfMetaSuiteBuilder>
+    <activation/>
+    <products>
+      <product UPC="{59D46EF2-D7DE-4270-9573-396E26E4CD91}" UPV="17.0.0"/>
+      <product UPC="{DA880F8E-3C33-4279-9BE7-394090B42263}" UPV="17.0.0"/>
+      <product UPC="{DCA7BB9E-D45A-4269-967B-C38EA46FAFA6}" UPV="17.0.0"/>
+      <product UPC="{80E262AF-3B89-4EBA-AD9B-80F2FC66B495}" UPV="17.0.0"/>
+      <product UPC="{883E8A94-1250-442B-BB63-464792C2ED3C}" UPV="17.0.0"/>
+      <product UPC="{BA177DF2-9BD5-4779-AFAE-9253D65EF9DA}" UPV="17.0.0"/>
+      <product UPC="{73D43A23-22C6-48CC-A099-CD4926C74682}" UPV="17.0.0"/>
+      <product UPC="{BA177DF2-9BD5-4779-AFAE-9253D65EF9DA}" UPV="17.0.0"/>
+      <product UPC="{FC32F44C-12BD-4C68-81CB-FF387E0B4570}" UPV="17.0.0"/>
+      <product UPC="{BA177DF2-9BD5-4779-AFAE-9253D65EF9DA}" UPV="17.0.0"/>
+      <product UPC="{163FCF6B-145A-457F-B39A-C54FB38543FD}" UPV="17.0.0"/>
+      <product UPC="{7415AB68-61A3-423B-88E1-5B5338E45C84}" UPV="17.0.0"/>
+      <product UPC="{AAF49272-8ADA-46F3-ACFA-7F77B09A8FCE}" UPV="17.0.0"/>
+      <product UPC="{746DA3F9-FFE8-46CA-894E-BDD392E57D9A}" UPV="17.0.0"/>
+      <product UPC="{16162551-2B30-47C6-A9D7-0D42B6C8B12C}" UPV="17.00.49152"/>
+      <product UPC="{165F6371-714F-4264-BBFA-F09106D9171A}" UPV="17.00.49154"/>
+      <product UPC="{2423B94D-3F80-4ACF-8A70-6F915686A010}" UPV="17.00.49153"/>
+      <product UPC="{2D07DEBE-F8D7-4324-879F-AACAD0EDB107}" UPV="15.50.49152"/>
+      <product UPC="{C0E6F5E5-6EB8-4FBB-A1C4-A707D5FA7B1A}" UPV="4.62.49152"/>
+      <product UPC="{6C7F4418-717F-4CA1-908D-9241950E40AB}" UPV="17.00.49153"/>
+      <product UPC="{3CAF4A2C-C24B-4915-82DD-B2364BF2C0E2}" UPV="2.10.49152"/>
+      <product UPC="{B0CAF85C-5484-4FCD-BF9D-20EAF483A913}" UPV="6.8.1"/>
+      <product UPC="{8071C953-8CCB-404B-B858-FDD81F34FA9D}" UPV="17.00.49152"/>
+      <product UPC="{DEF62E86-0CD9-4F2A-AF2C-433315E336C4}" UPV="17.0.0"/>
+      <product UPC="{D93B1C0B-35E1-4F3E-7994-D41D561E495D}" UPV="17.0.0"/>
+      <product UPC="{7AD2515E-03AD-4962-B444-81E2904F4728}" UPV="14.0.0"/>
+      <product UPC="{7AD2515E-03AD-4962-B444-81E2904F4728}" UPV="15.0.0"/>
+      <product UPC="{7AD2515E-03AD-4962-B444-81E2904F4728}" UPV="16.0.0"/>
+      <product UPC="{7AD2515E-03AD-4962-B444-81E2904F4728}" UPV="17.0.0"/>
+      <product UPC="{9D79BD8C-C0E2-4922-8947-F86F97842C63}" UPV="16.0.1"/>
+      <product UPC="{B800FFE9-135D-4B36-92EF-E41AF0788EC6}" UPV="16.0.1"/>
+      <product UPC="{9FD9C452-C4DB-40A3-A24F-21F944007C0D}" UPV="15.0.1"/>
+      <product UPC="{A2265440-F6EC-4FB2-D48E-36808CFADCE8}" UPV="17.0.0"/>
+      <product UPC="{F79021AC-51E7-4E1B-B6FF-FDABD12C7851}" UPV="14.0.1"/>
+      <product UPC="{F79021AC-51E7-4E1B-B6FF-FDABD12C7851}" UPV="15.0.1"/>
+      <product UPC="{F79021AC-51E7-4E1B-B6FF-FDABD12C7851}" UPV="16.0.1"/>
+      <product UPC="{0EF55B6B-2EE5-4677-84EA-E8A067DD9BA3}" UPV="14.1.1"/>
+      <product UPC="{0EF55B6B-2EE5-4677-84EA-E8A067DD9BA3}" UPV="16.0.1"/>
+      <product UPC="{C4C7EF01-E059-4A60-B92E-B60A83E07409}" UPV="14.0.2"/>
+      <product UPC="{99D796C3-2E53-4839-A25B-22C26B029103}" UPV="14.1.9"/>
+      <product UPC="{99D796C3-2E53-4839-A25B-22C26B029103}" UPV="15.1.8"/>
+      <product UPC="{99D796C3-2E53-4839-A25B-22C26B029103}" UPV="16.0.3"/>
+      <product UPC="{C7BECC19-BF54-4D30-AB46-36CB0F132A95}" UPV="14.1.1"/>
+      <product UPC="{C7BECC19-BF54-4D30-AB46-36CB0F132A95}" UPV="15.1.1"/>
+      <product UPC="{C7BECC19-BF54-4D30-AB46-36CB0F132A95}" UPV="16.0.1"/>
+      <product UPC="{EBFB4A39-BA18-46ED-8BD8-B68329AE6C63}" UPV="17.0.0"/>
+      <product UPC="{29D354D8-3E7C-4C8F-B47C-40FEFC6518EB}" UPV="14.5.1"/>
+      <product UPC="{29D354D8-3E7C-4C8F-B47C-40FEFC6518EB}" UPV="15.0.1"/>
+      <product UPC="{29D354D8-3E7C-4C8F-B47C-40FEFC6518EB}" UPV="16.0.1"/>
+      <product UPC="{769BB00F-977B-4908-8724-4E61A447D3A0}" UPV="17.00.49152"/>
+      <product UPC="{D5EA3A08-AD02-47C3-929E-7285BE9122B7}" UPV="17.00.49154"/>
+      <product UPC="{969970C9-8D34-471B-BFCE-582A529D7F9C}" UPV="14.0.1"/>
+      <product UPC="{969970C9-8D34-471B-BFCE-582A529D7F9C}" UPV="15.0.1"/>
+      <product UPC="{969970C9-8D34-471B-BFCE-582A529D7F9C}" UPV="16.0.1"/>
+      <product UPC="{40C09552-571C-41BF-A2E5-57DE7BECB645}" UPV="17.00.49154"/>
+      <product UPC="{46991CC2-E3DF-455E-9866-308E7D87CE86}" UPV="15.0.0.49153"/>
+      <product UPC="{8DEB4738-5DE1-488B-8484-78E7452B92F8}" UPV="17.00.49152"/>
+      <product UPC="{6171AF27-767F-4EB0-8028-E903401E218B}" UPV="17.00.49152"/>
+      <product UPC="{603648C2-F0DE-4202-AB79-F5A5573BE1BC}" UPV="8.63.49152"/>
+      <product UPC="{02707702-BB12-41D3-8146-35A57CE423C4}" UPV="15.0.0.49153"/>
+      <product UPC="{2D0C74B4-ACF6-45E1-86E8-7E67FD7D5264}" UPV="15.0.0.49153"/>
+      <product UPC="{FEE10641-8BC4-4489-9AD7-C1BD27B86356}" UPV="15.0.0.49153"/>
+      <product UPC="{FA16C83C-1967-4E86-AD4F-0A79A9B270A1}" UPV="15.1.0.49152"/>
+      <product UPC="{B2E9D449-B774-4145-9F64-E9B149B336B3}" UPV="15.1.0.49152"/>
+      <product UPC="{18992BC7-7447-4CA3-8949-8A42F470AE42}" UPV="15.1.0.49152"/>
+      <product UPC="{5C599C32-A0BB-4189-B77A-02833338DF5D}" UPV="15.1.0.49152"/>
+      <product UPC="{0989B538-D003-454E-9B12-0DF986FCD82E}" UPV="15.1.0.49152"/>
+      <product UPC="{E4AA78AB-71C8-46B6-B42B-587FEC128CEA}" UPV="17.0.0.49152"/>
+      <product UPC="{A8FE3233-6915-4F59-89C0-757B4D012958}" UPV="16.1.0.49155"/>
+      <product UPC="{14904776-A246-4646-A164-EA96EED138A6}" UPV="16.1.0.49155"/>
+      <product UPC="{0EBDD50A-8729-4A62-ACFF-0C32B565BD1E}" UPV="16.1.0.49155"/>
+      <product UPC="{CC6C8068-DD26-42DE-8642-BB055102C577}" UPV="16.1.0.49154"/>
+      <product UPC="{F0E913E9-6369-468F-8044-67A653F43C71}" UPV="16.1.0.49154"/>
+      <product UPC="{B7B6C9AB-B540-4BAF-88ED-F33A24239A55}" UPV="16.1.0.49154"/>
+      <product UPC="{6A7825FF-AFA4-4834-A520-9DB7AA59A662}" UPV="16.1.0.49154"/>
+      <product UPC="{43866D96-AEC4-46DC-A752-2C208806E097}" UPV="16.1.0.49154"/>
+      <product UPC="{95CAFB5A-E36B-4672-94A9-72EB31FFFD4D}" UPV="16.1.0.49154"/>
+      <product UPC="{1C40F6D1-75A7-49E7-9421-E6877E777CD9}" UPV="15.0.0.49153"/>
+      <product UPC="{4ED5DC8B-32E8-4F20-A04E-4D46E6ABEE66}" UPV="15.0.0.49153"/>
+      <product UPC="{67F63E41-83E0-4BF9-940B-533C1F82D8B2}" UPV="15.0.0.49153"/>
+      <product UPC="{CFF5C3FE-D2BD-47FF-8143-0123687B6DCD}" UPV="15.0.0.49153"/>
+      <product UPC="{46991CC2-E3DF-455E-9866-308E7D87CE86}" UPV="17.00.49152"/>
+      <product UPC="{CE005A7A-ED5D-4A04-A5F9-2006C06B59B4}" UPV="17.00.49153"/>
+      <product UPC="{69A86931-C54E-49D4-999A-EE7A21EAD529}" UPV="17.00.49153"/>
+      <product UPC="{C31FF6ED-6DD7-4D12-AE69-C1859CAB915F}" UPV="17.00.49152"/>
+      <product UPC="{A61393FC-358A-433B-B28F-D68ECEE80236}" UPV="17.00.49152"/>
+      <product UPC="{F4E16C1F-B3DF-41F8-91F9-89ECBFF985B9}" UPV="17.00.49154"/>
+      <product UPC="{CAE83C10-10F4-49EC-BC36-28CB5E064EB7}" UPV="17.00.49154"/>
+      <product UPC="{9CB882D1-787B-4ABE-8852-7BECE72BFFE2}" UPV="17.00.49152"/>
+      <product UPC="{9BF8B593-CF00-42C7-9F44-659F44D9D606}" UPV="17.00.49152"/>
+      <product UPC="{85675EE8-A3A0-400A-9F77-124F9A7DCD47}" UPV="17.00.49152"/>
+      <product UPC="{E9E3329F-BD44-4251-9D6E-887D06E1C3B6}" UPV="17.00.49152"/>
+      <product UPC="{27C1E53F-573C-4FE4-8FE5-04221E8C7BF1}" UPV="17.00.49152"/>
+      <product UPC="{0000DBA2-E5C2-4F55-AF99-2A8EF192F9B2}" UPV="17.00.49152"/>
+      <product UPC="{0000C52B-5914-4016-B079-252044B36331}" UPV="17.00.49152"/>
+      <product UPC="{000056C0-A9B8-4A59-A457-1A2DEED287C7}" UPV="17.00.49152"/>
+      <product UPC="{0DB51E00-41DA-4CB1-9EFF-0DB3135BACBA}" UPV="17.00.49152"/>
+      <product UPC="{0000D6D9-63C3-4DEC-9316-C4A7ECCC205D}" UPV="17.00.49152"/>
+      <product UPC="{B657CA96-BDD1-4520-B154-588E9056988C}" UPV="17.00.49152"/>
+      <product UPC="{8476FFD7-763D-4246-B52C-46CF3BDEB8B7}" UPV="16.10.49153"/>
+      <product UPC="{C38655CE-C363-4614-BC7B-409C2D764896}" UPV="17.00.49152"/>
+      <product UPC="{B3978294-963E-4A2A-9401-B0606E0AD94E}" UPV="17.00.49152"/>
+      <product UPC="{8BD1DDC8-992C-41EF-A15A-40D790611887}" UPV="17.00.49152"/>
+      <product UPC="{B11CCF11-5EE2-4381-AD42-E0A775E00BE1}" UPV="17.00.49153"/>
+      <product UPC="{949DE604-1755-414D-91BB-2F9CB2DFE205}" UPV="17.00.49152"/>
+      <product UPC="{E70AFF51-F3F6-4391-9593-97DA0F3FC80E}" UPV="1.11.49152"/>
+      <product UPC="{C8B37102-8DE4-418E-B189-C616D15248BC}" UPV="1.0.2"/>
+      <product UPC="{54583544-AF05-4350-B5A0-92D73EE29D05}" UPV="17.00.49152"/>
+      <product UPC="{D689AF5B-65E2-4A3F-9885-7614A6CF8922}" UPV="17.00.49152"/>
+      <product UPC="{08C97212-F612-499D-BBDB-A6923B8ECA98}" UPV="17.00.49153"/>
+      <product UPC="{F92D8092-9BBC-4253-88AC-4629A7D740C9}" UPV="17.00.49153"/>
+      <product UPC="{7EAF71A2-8437-49B1-BA22-EA188EA0807D}" UPV="17.00.49152"/>
+      <product UPC="{190D8014-7490-42F5-BF95-2765D37EDBAD}" UPV="17.00.49152"/>
+      <product UPC="{2E543BED-6AEA-431C-B9ED-F9CC5D447D92}" UPV="17.0.0"/>
+      <product UPC="{A4883F3E-D6C1-45D1-90BA-4B42FED56FD3}" UPV="17.0.0"/>
+      <product UPC="{C4F8F6D4-B5CB-4131-A88D-F8FB6AFAFC71}" UPV="17.0.0"/>
+      <product UPC="{C4F8F6D4-B5CB-4131-A88D-F8FB6AFAFC71}" UPV="17.0.0"/>
+      <product UPC="{C4F8F6D4-B5CB-4131-A88D-F8FB6AFAFC71}" UPV="17.0.0"/>
+      <product UPC="{C4F8F6D4-B5CB-4131-A88D-F8FB6AFAFC71}" UPV="17.0.0"/>
+      <product UPC="{8C7B712B-BEE4-41F9-A6E4-24888291B996}" UPV="17.00.49152"/>
+      <product UPC="{C4F8F6D4-B5CB-4131-A88D-F8FB6AFAFC71}" UPV="17.0.0"/>
+      <product UPC="{C4F8F6D4-B5CB-4131-A88D-F8FB6AFAFC71}" UPV="17.0.0"/>
+      <product UPC="{C4F8F6D4-B5CB-4131-A88D-F8FB6AFAFC71}" UPV="17.0.0"/>
+      <product UPC="{C4F8F6D4-B5CB-4131-A88D-F8FB6AFAFC71}" UPV="17.0.0"/>
+      <product UPC="{55EB9A01-5527-417E-D085-2AD662D3CE7D}" UPV="17.0.0"/>
+      <product UPC="{7076E039-4F6B-449C-AFF9-26754BA6309D}" UPV="17.00.49153"/>
+      <product UPC="{64C4C926-9F69-4EEA-BDA4-1CC88DF3973A}" UPV="17.00.49153"/>
+      <product UPC="{F55A4E99-7032-4FE6-9AD8-159D8D91E21B}" UPV="17.00.49152"/>
+      <product UPC="{7F93274E-66D0-495C-AF32-8D290689248C}" UPV="17.00.49152"/>
+      <product UPC="{46E1EF91-4A57-4ACC-A32D-2327DC9E6A87}" UPV="17.00.49152"/>
+      <product UPC="{DED51000-1945-4EDF-81C4-D5D2BC84EF25}" UPV="17.00.49152"/>
+      <product UPC="{B13868CF-6183-4653-9DA8-C703D6D6E2BD}" UPV="17.00.49153"/>
+      <product UPC="{88299021-FD08-45E4-B7F7-2DB101B7A252}" UPV="17.00.49153"/>
+      <product UPC="{BF3D9A20-1218-4202-8389-8728305380FF}" UPV="17.00.49152"/>
+      <product UPC="{C7F7FAA0-1DAB-4C1B-99EF-F57CB0F0518D}" UPV="17.00.49152"/>
+      <product UPC="{E7B3EBAC-9E96-4365-A805-2680C0743195}" UPV="17.00.49152"/>
+      <product UPC="{1AE18721-A343-4111-A8DC-6787025653DC}" UPV="17.00.49152"/>
+      <product UPC="{3F4821C0-CA31-45E6-910A-5102B11210DB}" UPV="17.00.49152"/>
+      <product UPC="{34F9A444-990C-4515-A262-3F7DF834F114}" UPV="17.00.49153"/>
+      <product UPC="{536515E0-DCF0-4CC1-AED4-AFB8666D99AB}" UPV="17.00.49153"/>
+      <product UPC="{03B4905D-37CC-4BA0-AE3D-829F7BE8A1CA}" UPV="17.00.49152"/>
+      <product UPC="{B6049E95-F70A-46B7-AE71-1C8045987260}" UPV="17.00.49152"/>
+      <product UPC="{32A0BC6B-9CD6-4418-BA78-261A56410D03}" UPV="17.00.49152"/>
+      <product UPC="{AA01D1BB-14BA-40A8-BD7D-747DD3E551EF}" UPV="17.00.49152"/>
+      <product UPC="{F54E3C58-BDE8-49D1-9E78-B815B7B4749C}" UPV="17.0.0"/>
+      <product UPC="{5A581F77-B2FC-4CE8-B895-AE798E466CA7}" UPV="17.00.49152"/>
+      <product UPC="{68029B88-6EE1-4E0F-AAF9-B08478939BAC}" UPV="17.00.49152"/>
+      <product UPC="{ECDA3284-3828-4CDB-A0CD-BF307D9F3646}" UPV="17.00.49152"/>
+      <product UPC="{16C2871F-5D1D-41B3-9229-51885B9F306E}" UPV="17.00.49152"/>
+      <product UPC="{F9E80395-3126-43EC-814B-E5A747BF9A05}" UPV="17.0.0"/>
+      <product UPC="{11DB38BB-D297-46A8-AE8A-89926768EBCD}" UPV="17.00.49154"/>
+      <product UPC="{6C1BB3D4-8DC8-40B8-8C10-AB706AE2F3E7}" UPV="17.00.49152"/>
+      <product UPC="{87E2F050-5707-4237-8E95-2EC14D5C62EF}" UPV="17.0.0"/>
+      <product UPC="{69CD3987-B5D3-4BE5-A59E-346C07B1A21A}" UPV="17.0.0"/>
+      <product UPC="{0A106BE3-C676-4A9E-A612-02A602814777}" UPV="17.0.0"/>
+      <product UPC="{98F2DC9A-C5FA-4EF9-9833-3FE19B50EAC2}" UPV="17.0.0"/>
+      <product UPC="{1DE69E75-1C1E-4A95-9321-39000554673B}" UPV="17.0.0"/>
+      <product UPC="{51928C23-AB7C-4050-8830-E3BDBCD951C4}" UPV="17.0.0"/>
+      <product UPC="{AFEBE076-DA6A-4402-B68F-8CF0FAE5F0ED}" UPV="17.0.0"/>
+      <product UPC="{33CD8EFC-0D08-11E4-B4B1-B2227CCE2B54}" UPV="17.0.0"/>
+      <product UPC="{0CA5A904-0D08-11E4-B4B1-B2227CCE2B54}" UPV="17.0.0"/>
+      <product UPC="{B11EF0D1-4572-4FC6-8595-A0987FECE56C}" UPV="17.0.0"/>
+      <product UPC="{70F40CAC-B0A7-449D-8AC9-E14D18EF73AC}" UPV="17.0.0"/>
+      <product UPC="{BBA8CE24-5B04-4AA1-BD4A-75B453662257}" UPV="17.0.0"/>
+      <product UPC="{71D6C352-447D-47F5-B26D-F3C1C3BF4EFA}" UPV="17.0.0"/>
+      <product UPC="{1DAB8B95-31FE-4F76-94C3-33708B2F0B33}" UPV="17.0.0"/>
+      <product UPC="{F0D3423D-BA79-409E-8C35-E7E3EA18E0DF}" UPV="17.0.0"/>
+      <product UPC="{85997938-EF43-4D31-BED7-6C0D566F11B2}" UPV="17.00.49152"/>
+      <product UPC="{70798A72-CF33-4EEB-BABA-46922B2BA63B}" UPV="17.00.49152"/>
+      <product UPC="{D71C1D03-CA8F-4545-BDB5-103E99C719AE}" UPV="17.0.0"/>
+      <product UPC="{0062885E-5C51-4C60-6491-5D9752C96D17}" UPV="14.2.1"/>
+      <product UPC="{0C03A9AC-DBFE-4A3A-B57B-FC1F00BBFB15}" UPV="2.00.49154"/>
+      <product UPC="{D651BB3E-E22A-486B-8D6A-5D2706579ED0}" UPV="17.00.49154"/>
+      <product UPC="{9767619F-FE39-4655-83E8-C1C5351613B4}" UPV="17.00.49154"/>
+      <product UPC="{4AC897D8-117B-4076-C0BF-2932EAB6BB5A}" UPV="17.0.0"/>
+      <product UPC="{BF7E6657-5A20-FDE2-F91A-7C5A818D71AE}" UPV="17.00.49152"/>
+      <product UPC="{54F86AD0-272B-E694-9F56-7C3108F867A4}" UPV="17.00.49152"/>
+      <product UPC="{2A3CDD78-BE87-EC79-772A-FD045F5ECAC0}" UPV="17.00.49152"/>
+      <product UPC="{E7B9453C-C3B9-46AA-AE54-1B1752121768}" UPV="14.1.0"/>
+      <product UPC="{E7B9453C-C3B9-46AA-AE54-1B1752121768}" UPV="13.0.2000"/>
+      <product UPC="{E7B9453C-C3B9-46AA-AE54-1B1752121768}" UPV="14.0.2000"/>
+      <product UPC="{51293DA6-9A24-4C26-9EB9-3641E29048F3}" UPV="17.00.49152"/>
+      <product UPC="{CBA7EDB3-A142-43B6-B68B-A723624F1375}" UPV="4.0.0"/>
+      <product UPC="{6277CED1-7132-453B-B536-A52712CEC5A7}" UPV="5.9.0"/>
+      <product UPC="{A3842A3B-E327-4F68-BEFF-552BE6206AA4}" UPV="5.9.0"/>
+      <product UPC="{EF139152-A56F-47AD-BDF7-B64D7B1332FC}" UPV="17.00.49152"/>
+      <product UPC="{507C7014-2F3F-4E12-9298-7642E88A5071}" UPV="17.00.49152"/>
+      <product UPC="{C78E989A-5196-4269-9CD9-96B69A73DF42}" UPV="17.00.49152"/>
+      <product UPC="{2058F21B-1D60-4DF5-83AB-CA593FB5A0D4}" UPV="17.00.49152"/>
+      <product UPC="{3FE2650F-93B2-4545-BE9E-D59ECA6A8AC2}" UPV="17.00.49152"/>
+      <product UPC="{5AA3928F-9DE7-481E-9E60-65E367B16216}" UPV="17.00.49152"/>
+      <product UPC="{A2B4145C-29E8-4D61-8BD1-B6C6C949BD73}" UPV="17.00.49152"/>
+      <product UPC="{DA5A784D-A650-42A3-B689-BFED42ABDA71}" UPV="17.00.49152"/>
+      <product UPC="{73EA8996-9E08-4160-95D1-E92145D234CC}" UPV="17.00.49152"/>
+      <product UPC="{971AD3BA-55C2-440E-BC5C-15549F9B826E}" UPV="17.00.49152"/>
+      <product UPC="{FE28B838-4373-4861-824C-9E20B5680034}" UPV="17.00.49152"/>
+      <product UPC="{F1D7EF11-F422-4387-8E5B-B0F93FA7FE52}" UPV="17.00.49152"/>
+      <product UPC="{D1FEAACF-339A-45BE-8E7C-EE9C5B4D29D0}" UPV="17.00.49152"/>
+      <product UPC="{A4BA6024-FBF9-46A5-A6FC-93A79DBF0DA1}" UPV="17.00.49152"/>
+      <product UPC="{A1DD654C-E897-4C46-8077-12873C75D79D}" UPV="1.0.7.49152"/>
+      <product UPC="{77E8E609-803B-46F0-9851-211D0A7DA362}" UPV="2.1.0"/>
+      <product UPC="{73661077-6E79-4C84-99E5-EB0924AB36B7}" UPV="14.0.1"/>
+      <product UPC="{73661077-6E79-4C84-99E5-EB0924AB36B7}" UPV="15.0.1"/>
+      <product UPC="{73661077-6E79-4C84-99E5-EB0924AB36B7}" UPV="16.0.1"/>
+      <product UPC="{5AEFE368-A98F-4907-95F8-0990C94D577D}" UPV="17.0.0"/>
+      <product UPC="{AB2B2694-7CF9-4CDD-8641-7555E1D59510}" UPV="17.0.0"/>
+      <product UPC="{540F6FCD-9570-43E6-9B0D-FB788B78DD98}" UPV="16.0.0"/>
+      <product UPC="{58118D91-FC4E-431F-418B-95E29A058B64}" UPV="16.0.0"/>
+      <product UPC="{FB99B180-68F3-4D20-A3B7-CABFEDAB7F59}" UPV="17.0.0"/>
+      <product UPC="{E0D4EF38-0650-47E9-8CA6-34473E6CE37A}" UPV="17.0.0"/>
+      <product UPC="{F95A8500-38C0-4AD3-BEE4-15DA5529C111}" UPV="17.0.0"/>
+      <product UPC="{FC2A5113-0F5B-4103-BFF6-E84624323EC5}" UPV="17.00.49152"/>
+      <product UPC="{A3ED8822-C172-4CD3-ABCC-A3D2FEE08E40}" UPV="17.00.49152"/>
+      <product UPC="{6C529C9C-D140-48DD-8C33-968F5F250A0F}" UPV="17.00.49152"/>
+      <product UPC="{CFA630D3-EC5C-4220-AC6E-E329F993D996}" UPV="17.00.49152"/>
+      <product UPC="{060421D7-05C7-47E9-9286-7483F3020731}" UPV="17.00.49152"/>
+      <product UPC="{21B8ABD9-7F5F-453A-B120-3F5CFF30AC0D}" UPV="17.00.49152"/>
+      <product UPC="{784F5B15-D1DD-4F8F-961C-1E2AA561AF74}" UPV="17.00.49152"/>
+      <product UPC="{5FA25D7B-C3EF-4735-B79C-58FA0C13454C}" UPV="17.00.49152"/>
+      <product UPC="{F51127E2-3FF5-4A0E-8D4A-8159B9847D27}" UPV="17.00.49152"/>
+      <product UPC="{10B8149C-3CD7-401E-8492-A00FE42EAAD4}" UPV="17.0.0"/>
+      <product UPC="{D842EF4D-FD3E-41EA-8F6D-4A597CE0D6CC}" UPV="2.00.49152"/>
+      <product UPC="{4529724A-66AE-4615-A896-41AA7EF70BBC}" UPV="15.0.1"/>
+      <product UPC="{A591BF4E-2B03-4EA6-9129-DA59008EA52A}" UPV="15.0.2"/>
+      <product UPC="{26A28F6B-2A51-4D57-91A7-87407133BC53}" UPV="5.16.49152"/>
+      <product UPC="{6947CD74-3076-42D8-BCDF-E965610CB874}" UPV="17.0.0"/>
+      <product UPC="{B0738842-C659-410B-96B5-8BA3516F3F70}" UPV="17.00.49152"/>
+      <product UPC="{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}" UPV="16.0.0"/>
+      <product UPC="{4CD11BE6-6BB7-4082-8A27-C13771BC309B}" UPV="17.0.0"/>
+      <product UPC="{C09CA5AD-EA38-40F9-9FD5-B387F552B933}" UPV="17.0.0"/>
+      <product UPC="{8DEFF217-D0D3-4C27-88EC-33236613491F}" UPV="17.00.49152"/>
+      <product UPC="{11D580A9-CAA9-4FAE-ACCE-008751A7AE9F}" UPV="16.0.1.24"/>
+      <product UPC="{8839DD59-B53B-4B86-8C5C-DDB219F9EB3A}" UPV="9.10.49152"/>
+      <product UPC="{9087D044-6BFC-48E7-8B60-4E427CC83B05}" UPV="9.00.49152"/>
+      <product UPC="{68C3AC19-656F-4216-8335-4A938FCF5201}" UPV="10.10.49152"/>
+      <product UPC="{64C67AFA-DC20-4BC4-B9DB-B0A98D8210F5}" UPV="10.10.16385"/>
+      <product UPC="{4A26AAA1-9B05-48E3-B9CF-F91B75FC1262}" UPV="14.13.49153"/>
+      <product UPC="{535BF539-F251-468B-9F11-BB4072773D70}" UPV="17.0.0"/>
+      <product UPC="{C6D489D2-55F2-AE9E-88AA-656450D9CAD2}" UPV="2.7.8"/>
+      <product UPC="{5D79C0C9-A15B-4A9B-AACF-1A2CF7761B70}" UPV="17.00.49152"/>
+      <product UPC="{F45E1BD5-C1B8-4C4A-8B5C-64608B708090}" UPV="14.05.49152"/>
+      <product ProductVersion="17.00.49153" UpgradeCode="{E0A6DCC7-A603-4163-A0F3-F1EF503089B7}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{C1EF7A68-D0A5-4EF8-8AB8-F89BEDF0D79B}"/>
+      <product ProductVersion="8.0.0101" UpgradeCode="{0CDE938F-CDB1-4DD7-A18A-52B323102CE7}"/>
+      <product ProductVersion="17.00.49153" UpgradeCode="{F8D3F894-F912-4A7E-9318-0C547D37D033}"/>
+      <product ProductVersion="15.50.49152" UpgradeCode="{F31A3240-633D-4040-AC85-0168D0F48B5F}"/>
+      <product ProductVersion="4.62.49152" UpgradeCode="{22A7C1E9-D26D-4226-86C0-BFAD27D9365A}"/>
+      <product ProductVersion="4.62.49152" UpgradeCode="{C2B25CCD-1C69-4AC7-A83F-FFE6F936BB04}"/>
+      <product ProductVersion="2.10.49152" UpgradeCode="{0058F63B-2BD1-4BEF-89BC-DAA74C726870}"/>
+      <product ProductVersion="6.81.49152" UpgradeCode="{26E5B208-24E7-4712-8358-1718B1DC5076}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{44F184C9-F61E-4D38-940D-6803E2F6F311}"/>
+      <product ProductVersion="14.19.49152" UpgradeCode="{979409AA-4856-4752-8983-29242317A254}"/>
+      <product ProductVersion="15.18.49152" UpgradeCode="{3208ABC7-F535-4A01-9E28-E80B5E922AB9}"/>
+      <product ProductVersion="16.03.49152" UpgradeCode="{BF4482B3-77D3-4C9E-B31C-67DB5AA7E012}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{9BC48AFE-B8CC-4C96-B90F-C6C08ED52465}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{DD8CE8FD-329B-49F9-A1C9-6235AE793E54}"/>
+      <product ProductVersion="14.01.49152" UpgradeCode="{0EE2FD57-43C0-49AD-9515-E6D895F45F35}"/>
+      <product ProductVersion="15.01.49152" UpgradeCode="{22B3F4FD-A882-4272-AB17-29D07770FACF}"/>
+      <product ProductVersion="16.01.49152" UpgradeCode="{3D8C74AF-2561-417D-97A2-57E04DC1FD79}"/>
+      <product ProductVersion="17.00.49154" UpgradeCode="{F17F2F80-5B15-499D-AA54-9C80FE178ACB}"/>
+      <product ProductVersion="16.10.49155" UpgradeCode="{C28F3822-140F-4CAD-AD8B-72E575E29457}"/>
+      <product ProductVersion="16.10.49155" UpgradeCode="{653EC42E-CA9E-40D3-9B75-D8B30D4ECD07}"/>
+      <product ProductVersion="16.10.49155" UpgradeCode="{2A6FAF68-3466-4809-975B-D4A6221D7A32}"/>
+      <product ProductVersion="16.10.49154" UpgradeCode="{15F34A8A-C0B1-4C4B-8520-14315FA46A7D}"/>
+      <product ProductVersion="16.10.49154" UpgradeCode="{57AE3A8F-DC76-497F-9F6B-FEBA60003C72}"/>
+      <product ProductVersion="16.10.49154" UpgradeCode="{68D6D3F3-5F89-4E73-881B-B03F5D10F2C6}"/>
+      <product ProductVersion="17.00.49153" UpgradeCode="{D5835650-E5FF-4FC6-9DE8-A8B3083CDF7F}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{CFF3D0BB-CB86-4E4E-AAC4-50434C62F430}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{8F2DB6D9-100F-4A93-BE90-C97C46A1E076}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{6A17ED9F-8C3A-4D81-91AD-7AF5A7CB8F51}"/>
+      <product ProductVersion="3.80.49152" UpgradeCode="{CBEC57BE-0F8B-45FD-A67C-222FA6BC73C5}"/>
+      <product ProductVersion="3.70.49152" UpgradeCode="{3E9583F1-29AD-4FEE-BF13-B9976D3C9881}"/>
+      <product ProductVersion="3.70.49152" UpgradeCode="{347A5B88-480D-4E7D-B1F6-674EE1F569DF}"/>
+      <product ProductVersion="16.40.49152" UpgradeCode="{0B69A8F8-5AB4-40F7-8CD1-E7F9C0BB1FEC}"/>
+      <product ProductVersion="16.40.49152" UpgradeCode="{A0A523C7-D47D-46E0-B795-162ECBB66110}"/>
+      <product ProductVersion="16.10.49159" UpgradeCode="{38E9F31C-3ED8-4DD5-93ED-0F34210F68F6}"/>
+      <product ProductVersion="16.10.49159" UpgradeCode="{5E5382D9-5B53-4575-AC92-8FB6DA4091ED}"/>
+      <product ProductVersion="16.10.49154" UpgradeCode="{D2FB8E6C-DCBB-4361-ACBA-20FE8C18D4D3}"/>
+      <product ProductVersion="16.10.49154" UpgradeCode="{3F05F574-6CEB-42C3-A934-2F55123B7609}"/>
+      <product ProductVersion="16.10.49154" UpgradeCode="{7F2661EE-224B-44A1-9D2F-828B1A6A757C}"/>
+      <product ProductVersion="16.10.49154" UpgradeCode="{72167872-25A8-4DFB-A29F-A7089623E4EE}"/>
+      <product ProductVersion="16.11.49152" UpgradeCode="{18EB94ED-5FB6-4D05-A4C8-85DE15288337}"/>
+      <product ProductVersion="16.11.49152" UpgradeCode="{CE27DD79-CFFE-4A21-9985-5BEC6615ACE4}"/>
+      <product ProductVersion="16.10.49155" UpgradeCode="{A296593F-86C0-493C-8C12-42BDF1FA1173}"/>
+      <product ProductVersion="16.10.49155" UpgradeCode="{60B032F1-D23B-4DAE-803E-BA5F4F0F0857}"/>
+      <product ProductVersion="16.10.49153" UpgradeCode="{40C3970D-A47B-4BDF-A783-9A14CFCFAFB7}"/>
+      <product ProductVersion="16.10.49153" UpgradeCode="{98F79306-7398-48D2-9537-8DC7EB0BA7B9}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{6EA62E73-0D65-4115-A830-00C58E2619EF}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{6154980D-AF72-4F31-9529-22D6E2F70BFC}"/>
+      <product ProductVersion="16.10.49159" UpgradeCode="{0BC9BA05-2170-43D6-B0A4-9DCE429DC3EC}"/>
+      <product ProductVersion="16.10.49159" UpgradeCode="{FD464F8E-F83A-4708-92F9-CA8CB20E8CE5}"/>
+      <product ProductVersion="14.50.49152" UpgradeCode="{BC9B53BF-59EB-402E-91B4-BAF05F78375E}"/>
+      <product ProductVersion="14.50.49152" UpgradeCode="{6F82E9E4-4678-4021-8B52-7747E275F3AE}"/>
+      <product ProductVersion="16.10.49153" UpgradeCode="{F1419AAA-5F0A-4BB1-AA74-556B98BD82F5}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{FD6875EB-1C0D-4D0A-8739-D39C5E9276C9}"/>
+      <product ProductVersion="16.40.49152" UpgradeCode="{A62B823B-60EE-4FF2-A430-5109C0D5C0F3}"/>
+      <product ProductVersion="16.40.49152" UpgradeCode="{CCE61747-0B8B-4B61-8EDE-98BEB2F48621}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{9A437AB7-1C92-403C-854B-19C381CB2952}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{C9667C23-A569-45A4-A72C-E40A2EEAB862}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{0360838C-2522-414F-A21F-023791ADE269}"/>
+      <product ProductVersion="17.00.49153" UpgradeCode="{2D8D8DAC-21C1-4DE4-9CF8-55C2479C822A}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{218CE599-0DC8-44C2-970B-DC901731A94F}"/>
+      <product ProductVersion="17.00.49153" UpgradeCode="{18287821-F934-4AF8-B164-B28AF4890B94}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{4968D625-0E31-4E6E-B07F-B8177F7F5EC5}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{FC912C0B-2257-4705-9EB3-A0E6CDE0BF85}"/>
+      <product ProductVersion="17.00.49154" UpgradeCode="{EAD464C4-8204-47D3-96E9-B7F2C42BCA6A}"/>
+      <product ProductVersion="17.00.49153" UpgradeCode="{FE841125-CF76-4996-A36B-45010850774F}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{C9D3CD5F-01D9-4B32-BB2E-74AD9BD44C6E}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{74F21AC5-C322-4C08-A633-38B440BC7D1C}"/>
+      <product ProductVersion="17.00.49153" UpgradeCode="{47A950BD-6259-4796-B815-2836C31D1168}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{7E4FD1B3-B452-448E-88DD-E1D2957D118D}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{F9453BC3-4920-4D78-8CE5-48E90ED9071B}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{0502156F-9595-4B3F-A77E-6CB5BF2E83F3}"/>
+      <product ProductVersion="17.00.49153" UpgradeCode="{E2543666-999A-403A-8A26-C6DAE3669075}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{ABA7D958-8704-4395-9F06-A6F3AC59E948}"/>
+      <product ProductVersion="17.00.49155" UpgradeCode="{E19027C7-041A-EC1D-35B0-601B42088734}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{AF1A374D-4165-4DE9-ACA4-FEA2A6638AC8}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{F43EAC0A-56BD-4C51-86E5-2AA91DD7EC78}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{91F4BF2F-37EA-4861-8B46-4327AD8F7565}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{80521318-1367-47B5-B3AC-BDE66CDF9A2C}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{CCD7729F-4B50-4E91-9A67-A3B1F932F350}"/>
+      <product ProductVersion="17.00.49153" UpgradeCode="{E250781F-9252-44B1-9482-EBBCE06C9BE1}"/>
+      <product ProductVersion="17.00.49154" UpgradeCode="{F95A6064-12E6-4E41-931C-4D1B8DE33077}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{879F6C7B-F80A-4224-80EE-A2D7D6A2A8BB}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{2A0C1846-7A40-4C06-8AFB-7E83C36BC165}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{0A0C3489-A948-4922-B9AC-92E09DE3162E}"/>
+      <product ProductVersion="5.90.49152" UpgradeCode="{BA8875A0-3767-46E7-B3DE-09275F2716A0}"/>
+      <product ProductVersion="5.90.49152" UpgradeCode="{DBF9AE3A-A372-4A5A-B473-CC37A0F607F4}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{B10C13EA-F8B4-4401-870D-092E263AB346}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{89C33605-199F-41DC-8468-62AB138F62DC}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{5B63CA17-6011-4A12-8398-7E76B0BD2A97}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{C3B27671-335D-4816-B189-3EAC7E5DB5E7}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{74CD996E-746D-4A5E-B7D9-4ED5FBAFCF0D}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{2E41587C-0BE1-455F-8CE6-671921397484}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{CB12E5AC-F1A7-45E9-BA02-93858377D1CA}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{E8A4850C-5FDA-4C58-BE1D-68DCA120D0BB}"/>
+      <product ProductVersion="16.0.152" UpgradeCode="{8ED4296D-1D1E-47F8-9F06-25E2A4450F60}"/>
+      <product ProductVersion="16.0.149" UpgradeCode="{5B17EDE1-E298-4505-A15F-5D3C42078A5E}"/>
+      <product ProductVersion="17.00.49153" UpgradeCode="{9F41DEC8-7BC2-46BC-BB86-BD76FA24AB3A}"/>
+      <product ProductVersion="17.00.49153" UpgradeCode="{AA14FF2B-A68E-46FF-8E13-CEC408EAF638}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{9E6F8810-2B42-4BE7-B2A9-FF923F67D93A}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{7D2CA84E-B0F4-43D5-AD24-4B5B385FEAE5}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{20AEE825-9628-4365-976C-D1B78673458F}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{C555E1F6-0F3F-4B17-8E45-7ADB0BC5F645}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{7F1AD3C9-7C3F-4F28-9361-F009C4708B20}"/>
+      <product ProductVersion="2.00.49152" UpgradeCode="{1D29F576-DD70-4519-9E7D-08E895F409A4}"/>
+      <product ProductVersion="15.01.49153" UpgradeCode="{5FF02423-EB5A-4061-A08D-B3B314A14689}"/>
+      <product ProductVersion="15.01.49153" UpgradeCode="{4A25D501-7090-4CB1-B769-8461B5C88ABF}"/>
+      <product ProductVersion="15.01.49153" UpgradeCode="{C3576BC2-C402-4122-8B2A-B0E765B0EC8A}"/>
+      <product ProductVersion="15.01.49153" UpgradeCode="{DE4681A7-A039-445A-8404-DBBDA60937D2}"/>
+      <product ProductVersion="5.16.49152" UpgradeCode="{901B4C53-DD2C-42A7-B6E4-399F5D1E9C37}"/>
+      <product ProductVersion="5.16.49152" UpgradeCode="{C367F489-E6B3-4FB8-9232-89CB32371A6B}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{69DC1832-0E76-4A9E-AE7F-825A202F6784}"/>
+      <product ProductVersion="16.01.49152" UpgradeCode="{E14C752C-9307-4A71-B65E-E7B9CE0D063C}"/>
+      <product ProductVersion="9.10.49152" UpgradeCode="{C7ED6025-78DA-40E3-913B-310610D5C7AB}"/>
+      <product ProductVersion="10.10.49152" UpgradeCode="{CE498322-C378-4658-BA31-2E893787DE28}"/>
+      <product ProductVersion="14.13.49153" UpgradeCode="{CA17C748-8B26-41C5-8E58-BCAB06909BFC}"/>
+      <product ProductVersion="14.13.49153" UpgradeCode="{ED7E4769-125A-49EC-8865-16560163B673}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{55805794-FDD9-4E71-8AD8-9896517F98C8}"/>
+      <product ProductVersion="2.78.49153" UpgradeCode="{AA45DC50-D076-4372-C70C-36AFD5F35A95}"/>
+      <product ProductVersion="17.00.49152" UpgradeCode="{62A55332-6B77-48C2-BA40-AD1E9694B2B3}"/>
+    </products>
+  </distribution>
+
+  <volumeInfo currentIndex="1">
+    <volume id="{61923EC7-CD4E-4F8A-97FB-C73359DD8A71}" index="1">
+      <volumeLabel>LabVIEW and Multisim for ELT basic courses</volumeLabel>
+      <diskPrompt language="0009">LabVIEW and Multisim for ELT basic courses</diskPrompt>
+    </volume>
+  </volumeInfo>
+
+  <serialGroup id="{803DEDC1-A19A-44BB-AE5A-52AC0EEDBD1E}">
+    <name language="0009">LabVIEW 2017 (Base/Full/Professional)</name>
+  </serialGroup>
+
+  <serialGroup id="{803DEDC1-A19A-44BB-AE5A-52AC0EEDBD1E}2">
+    <name language="0009">Application Builder for LabVIEW 2017 - leave blank if activating LabVIEW Professional.</name>
+  </serialGroup>
+
+  <serialGroup id="{803DEDC1-A19A-44BB-AE5A-52AC0EEDBD1E}3">
+    <name language="0009">Report Generation Toolkit for LabVIEW 2017 - leave blank if activating LabVIEW Professional.</name>
+  </serialGroup>
+
+  <serialGroup id="{803DEDC1-A19A-44BB-AE5A-52AC0EEDBD1E}4">
+    <name language="0009">Database Toolkit for LabVIEW 2017 - leave blank if activating LabVIEW Professional.</name>
+  </serialGroup>
+
+  <serialGroup id="{E363A1A4-2269-42E4-A63B-7AC26408999D}">
+    <name language="0009">NI Circuit Design Suite 14.1 Education</name>
+    <name language="0007">NI Circuit Design Suite 14.1 Education</name>
+  </serialGroup>
+
+  <directory id="NIDIR">
+    <description language="0009">Select the installation directory for National Instruments software</description>
+  </directory>
+
+  <directory id="NIDIR64">
+    <description language="0009">Select the installation directory for 64-bit versions of National Instruments software</description>
+  </directory>
+
+  <EULA id="NIStandardReleased" isDisplayedAlone="false" isThirdParty="false">
+    <file displayName="NI" language="0009">Licenses\NI Released License Agreement - English.rtf</file>
+    <file displayName="NI" language="0010">Licenses\NI Released License Agreement - Spanish.rtf</file>
+    <file displayName="NI" language="0016">Licenses\NI Released License Agreement - Italian.rtf</file>
+    <file displayName="NI" language="0007">Licenses\NI Released License Agreement - German.rtf</file>
+    <file displayName="NI" language="0012">Licenses\NI Released License Agreement - French.rtf</file>
+    <file displayName="NI" language="0017">Licenses\NI Released License Agreement - Japanese.rtf</file>
+    <file displayName="NI" language="0018">Licenses\NI Released License Agreement - Korean.rtf</file>
+    <file displayName="NI" language="2052">Licenses\NI Released License Agreement - Simplified Chinese.rtf</file>
+  </EULA>
+
+  <EULA id="MicrochipHiTechCombined" isDisplayedAlone="false" isThirdParty="true">
+    <file displayName="Microchip" language="0009">Licenses\NI CDS - Combined License Agreement - English.rtf</file>
+  </EULA>
+
+  <EULA id="Silverlight_5.0" isDisplayedAlone="true" isThirdParty="true">
+    <file displayName="Microsoft Silverlight 5 EULA" language="0009">Licenses\Microsoft Silverlight 5 EULA - English.rtf</file>
+    <file displayName="Microsoft Silverlight 5 EULA" language="0012">Licenses\Microsoft Silverlight 5 EULA - French.rtf</file>
+    <file displayName="Microsoft Silverlight 5 EULA" language="0007">Licenses\Microsoft Silverlight 5 EULA - German.rtf</file>
+    <file displayName="Microsoft Silverlight 5 EULA" language="0017">Licenses\Microsoft Silverlight 5 EULA - Japanese.rtf</file>
+    <file displayName="Microsoft Silverlight 5 EULA" language="0018">Licenses\Microsoft Silverlight 5 EULA - Korean.rtf</file>
+    <file displayName="Microsoft Silverlight 5 EULA" language="2052">Licenses\Microsoft Silverlight 5 EULA - Simplified Chinese.rtf</file>
+  </EULA>
+
+  <EULA id="SilverlightPrivacy_5.1" isDisplayedAlone="true" isThirdParty="true">
+    <file displayName="Microsoft Silverlight 5.1 Privacy Statement" language="0009">Licenses\Microsoft Silverlight 5.1 Privacy - English.rtf</file>
+    <file displayName="Microsoft Silverlight 5.1 Privacy Statement" language="0012">Licenses\Microsoft Silverlight 5.1 Privacy - French.rtf</file>
+    <file displayName="Microsoft Silverlight 5.1 Privacy Statement" language="0007">Licenses\Microsoft Silverlight 5.1 Privacy - German.rtf</file>
+    <file displayName="Microsoft Silverlight 5.1 Privacy Statement" language="0017">Licenses\Microsoft Silverlight 5.1 Privacy - Japanese.rtf</file>
+    <file displayName="Microsoft Silverlight 5.1 Privacy Statement" language="0018">Licenses\Microsoft Silverlight 5.1 Privacy - Korean.rtf</file>
+    <file displayName="Microsoft Silverlight 5.1 Privacy Statement" language="2052">Licenses\Microsoft Silverlight 5.1 Privacy - Chinese.rtf</file>
+  </EULA>
+
+  <installOptionSet id="NoCustomInstall">
+    <installOption id="Custom" show="false"/>
+  </installOptionSet>
+
+  <supportFiles>
+    <metautilsMsm>Bin\niMetaUtils.msm</metautilsMsm>
+  </supportFiles>
+
+  <localization>
+    <supportedLanguage>0009</supportedLanguage>
+    <forceLanguage>0009</forceLanguage>
+    <customResFile language="0009">Bin\resource.dll</customResFile>
+  </localization>
+
+  <customGraphic item="TopBar">
+    <bitmap>IDB_TOPSTRIP</bitmap>
+    <bitmap>IDB_TOPSTRIP_LARGE</bitmap>
+  </customGraphic>
+
+  <customGraphic item="FullScreen">
+    <bitmap>IDB_FULLSCREEN</bitmap>
+    <bitmap>IDB_FULLSCREEN_LARGE</bitmap>
+  </customGraphic>
+
+  <customText language="0009">
+    <string item="STR_GLOBAL_WINDOWTITLE">LabVIEW and Multisim for ELT basic courses</string>
+    <string item="STR_INIT_WELCOME">LabVIEW and Multisim for ELT basic courses</string>
+    <string item="STR_INIT_WELCOME_SUBTITLE">includes LabVIEW 2017, Circuit Design Suite 14.1, ELVISmx 17.0</string>
+  </customText>
+
+  <OSRestriction>
+    <OSVersion OSFamily="Version9X" max="" min="-1"/>
+    <OSVersion OSFamily="VersionNT" max="" min="6,1,7601,1,0"/>
+  </OSRestriction>
+
+  <PhoneHome>
+    <defaultState>1</defaultState>
+    <visible>1</visible>
+    <dllPath>Bin\</dllPath>
+  </PhoneHome>
+
+  <DotNetPreinstall>
+    <DotNet40Preinstall>true</DotNet40Preinstall>
+    <DotNet45Path>Common\Products\p15\NDP462-KB3151800-x86-x64-AllOS-ENU.exe</DotNet45Path>
+    <DotNet45Version>4.6.1590.0</DotNet45Version>
+  </DotNetPreinstall>
+
+  <supportFilesPath>Bin\</supportFilesPath>
+
+  <dedupeFilesPath>Bin\dedupelog.xml</dedupeFilesPath>
+
+  <longestPath>104</longestPath>
+
+  <persistSuiteInfoToRegistry>true</persistSuiteInfoToRegistry>
+
+  <minimumRequiredVersionOfBib>1.0</minimumRequiredVersionOfBib>
+
+</suiteDefinition>
