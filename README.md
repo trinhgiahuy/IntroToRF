@@ -193,3 +193,33 @@ FPGA and system design
 VLSI Solution
 http://www.vlsi.fi/en/jobs.html
 
+---
+# Samaneh Ammari  3rd degree connection3rd
+System on Chip(SoC) Engineer at Nokia
+
+System on Chip(SoC) Engineer
+Full-time
+Dates EmployedOct 2019 – Present
+Employment Duration2 yrs 1 mo
+LocationTampere, West and Inner Finland, Finland
+TitleTrainee
+Full-time
+Dates EmployedMay 2019 – Oct 2019
+Employment Duration6 mos
+LocationTampere, Western and Central Finland, Finland
+
+7
+Projects
+
+- Implementing different projects to work with different parts of ARM (STM 32), and simulating Digital Circuits inside Proteus software and prototyping with STM32 Discovery kit
+- Analog Circuit Design in P-spice for Electronics I, II, III courses.
+- My Bachelor’s dissertation was about “Intelligent Robotic Arm for Rehabilitation Using Brainwave and Adaptive Controller (BCI)”
+- Pattern Recognition in Matlab for Image Processing course.
+- Preparing and designing an LED panel, At the request of the Entrepreneurship Unit at Shariati University.
+- Simulating a Channel for Transporting Signals in Matlab for Telecommunication course
+- simulating PID controller for various systems in Matlab for Linear Control System course
+
+
+
+https://www.linkedin.com/learning/linux-shells-and-processes
+https://www.linkedin.com/learning/learning-linux-shell-scripting-2018
