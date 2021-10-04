@@ -34,3 +34,26 @@ Relevant courses:
 -RF Equipment for Wireless Networks.
 -Software Defined Radio Platforms
 -Digital Design
+---
+Moein Reza Golzadeh  3rd degree connection3rd
+SoC Engineer at Nokia
+
+
+* SoC Engineer
+Full-time
+Dates EmployedNov 2019 – Present
+Employment Duration2 yrs
+LocationTampere Area, Finland
+- C++/Matlab FXP modeling, L1 Rx baseband (FPGA/ASIC)
+- Modeling/verification strategy documentation
+- UVM top level verification, L1 Tx/Rx (FPGA)
+
+* Trainee, SoC
+Dates EmployedApr 2019 – Oct 2019
+Employment Duration7 mos
+LocationTampere Area, Finland
+- UVM top level verification, L1 Rx (FPGA)
+
+Tampere University
+Degree NameMaster of ScienceField Of StudyWireless Communications and RF Systems Grade5/5
+Dates attended or expected graduation2018 – 2021
