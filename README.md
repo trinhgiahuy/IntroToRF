@@ -7,7 +7,7 @@ Topics include the design of data acquisition systems (NI-based), assisting in e
 Familiar with Data acquisition systems (Labview)
 
 ---
-Jhonny Villota
+# Jhonny Villota
 About
 Genuinely passionate about Mobile Networks. R&D on leading-edge technologies for 5G/LTE mobile networks. Previous experience as RF Optimization Engineer, test and performance analysis on 3G/LTE Radio Access Networks (RAN).
 Competencies: RAN, WCDMA, LTE, 5G NR, Signal Processing, VHDL, Linux, TCL.
@@ -62,7 +62,7 @@ https://www.linkedin.com/learning/building-deep-learning-applications-with-keras
 https://www.linkedin.com/learning/c-plus-plus-advanced-topics
 
 ---
-Mohamed Khalifa Mohamed  3rd degree connection3rd
+# Mohamed Khalifa Mohamed  3rd degree connection3rd
 SoC Verification Engineer at Nokia
 
 Nokia
@@ -87,8 +87,7 @@ During this internship, I implemented and verified a cryptographic IP using High
 
 ---
 ---
-Trainee, SoC/IP
-Nokia  Oulu
+# Trainee, SoC/IP Nokia  Oulu
 
 We are looking for
 
@@ -113,8 +112,7 @@ Schedule
 Full-time
 
 ----
-Trainee, SoC
-Nokia  Tampere, Pirkanmaa, Finland 
+# Trainee, SoC Nokia  Tampere, Pirkanmaa, Finland 
 
 We are now looking trainees to join our SoC development teams. We are interested on persons in the middle of the studies, who have understanding and/or studies on any of topic listed below
 SoC design and verification tools (VHDL, System-Verilog)
@@ -122,3 +120,31 @@ SoC related SW and scripting languages (C, C++, Python).
 Machine Learning and Artificial Intelligence (Python, Matlab).
 Traineeship with Nokia will give you a good experience about working with state-of-the-art technologies and in a true multicultural working environment. Nokia also offers possibilities to do thesis work as part of the traineeship.
 
+---
+# Mohamad Shariat Nasseri  3rd degree connection3rd
+SoC Engineer at Nokia
+
+
+Tampere University
+Degree NameMaster's degreeField Of StudyInformation TechnologyGrade3.75
+Dates attended or expected graduation2016 – 2018
+
+Major: Pervasive Sysems (Focus area: Computer Systems)
+Minor: Computer Networking
+
+
+* SoC Trainee
+Dates Employed Oct 2017 – Mar 2018
+Employment Duration6 mos
+LocationTampere, Western and Central Finland, Finland
+
+7
+Courses
+
+- Digital Design
+- Digital Electronics
+- Digital Logic Circuits
+- Logic Synthesis
+- Parallel Embedded Computing
+- System Design
+- VLSI Systems Design
