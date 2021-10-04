@@ -148,3 +148,48 @@ Courses
 - Parallel Embedded Computing
 - System Design
 - VLSI Systems Design
+
+---
+# Eero Mäkiranta  3rd degree connection3rd
+Engineer, SoC at Nokia
+
+Engineer, SoC
+Full-time
+Dates EmployedAug 2021 – Present
+Employment Duration3 mos
+TitleTrainee, SoC
+Dates EmployedFeb 2021 – Jul 2021
+Employment Duration6 mos
+
+Tampere University
+Degree NameMaster's degreeField Of StudyElectrical and Electronics Engineering
+Dates attended or expected graduation2020 – 2022
+
+Embedded systems and factory automation
+
+---
+# Kalle Jyrä  3rd degree connection3rd
+Engineer, SoC at Nokia
+
+Master of Science in Embedded Systems. Working with design flows and automation. Knowledge in industry tools, standards and scripting.
+
+Engineer, SoC
+Full-time
+Dates EmployedAug 2020 – Present
+Employment Duration1 yr 3 mos
+LocationTampere, West and Inner Finland, Finland
+TitleSoC Trainee
+
+Full-time
+Dates EmployedJan 2020 – Jul 2020
+Employment Duration7 mos
+LocationTampere Area, Finland
+Trainee
+Company NameVLSI Solution
+Dates EmployedMay 2019 – Aug 2019
+Employment Duration4 mos
+FPGA and system design
+
+VLSI Solution
+http://www.vlsi.fi/en/jobs.html
+
