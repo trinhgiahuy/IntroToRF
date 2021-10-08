@@ -226,3 +226,40 @@ Projects
 
 https://www.linkedin.com/learning/linux-shells-and-processes
 https://www.linkedin.com/learning/learning-linux-shell-scripting-2018
+
+---
+# Thanh Tran NUS 2k,  software development in both frontend, backend, and database taking Bachelor in Computer Engineering and specialization in Internet of Things in NUS.
+
+## Automation Engineer Intern
+Company NameInfineon Technologies Internship
+Dates EmployedJan 2021 – Jul 2021
+Employment Duration7 mos
+
+## Frontend Web Developer
+Company NameSmartGuppy Part-time
+Dates EmployedJun 2019 – Dec 2020
+Employment Duration 1 yr 7 mos
+• Developed 3 interactive web-pages – WhyShare?, GetInvolved, and About Us – using React
+• Implemented smart recommendation function to suggest resources of the same subject and level
+CONERA 
+
+## SOFTWARE DEVELOPER INTERN
+Company NameCONERA Internship
+Dates EmployedMay 2019 – Aug 2019
+Employment Duration4 mos
+• Researched about Beacon and indoor locating methods using Bluetooth Low Energy (BLE)
+• Developed an Android app using React-native to detect Beacons and apply various methods to locate user
+• Tested the app in the company environment with the maximum error in result of 5 meters
+none
+
+## Game Developer
+Company Namenone
+Dates EmployedMay 2018 – Aug 2018
+Employment Duration4 mos
+(Participated in small hackathons organized by MindX – a Vietnamese programming school)
+• Developed a computer-vision-based dancing game in a group of 5 using Python: optimized game sensitivity by experiencing with time delay
+• Developed a Brick Breaker game in a group of 3 using Java within 12 hours: created multiple game objects and all pixel game graphics using Aseprite
+• Participated in non-technical aspects of the competitions: Facebook advertisements and presentations to judges
+
+## Skill
+C++, DSA, OOP, WebDev, Java, HTML, C, RTOS, React.js, React Native, JS, Python, Arduino IDE, PostgreSQL, Flask, IoT
