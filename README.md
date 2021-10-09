@@ -227,6 +227,93 @@ Projects
 https://www.linkedin.com/learning/linux-shells-and-processes
 https://www.linkedin.com/learning/learning-linux-shell-scripting-2018
 
+
+--
+# Sebastian Villegas  2nd degree connection2nd
+SoC Engineer at Nokia
+
+Nokia
+Total Duration2 yrs 6 mos
+TitleSoC Engineer
+Full-time
+Dates EmployedDec 2019 – Present
+1 yr 11 mos
+LocationTampere Area, Finland
+TitleSoC Engineering Trainee
+Dates EmployedMay 2019 – Dec 2019
+8 mos
+
+Tampere University of Technology
+Degree NameMaster's degreeField Of StudyWireless Communications and RF Systems, GPA: 5/5
+Dates attended or expected graduation2018 – 2021
+
+-- 
+# *Jingui Li  2nd degree connection2nd SoC engineer at Nokia
+SoC engineer
+Company NameNokia Full-time
+Dates EmployedNov 2017 – Present
+Employment Duration4 yrs
+LocationTampere Area, Finland
+* Maintenance of UVM verification environment
+* Writing different tests in UVM to verify 5G NR chipset functionality
+* Scripting, including in Bash, Python, Perl, etc., to help improve the level of automation in verification process
+
+
+Company NameTampere University of Technology
+Total Duration1 yr 4 mos
+TitleTeaching Assistant
+Dates EmployedSep 2016 – Aug 2017
+Employment Duration1 yr
+LocationTampere Area, Finland
+* Implementation of a digital signal processing system using VHDL
+* Helping students in project work
+TitleMaster's thesis worker
+Dates EmployedMay 2016 – Aug 2017
+Employment Duration1 yr 4 mos
+LocationTampere
+* Application of Light-Weight Dataflow Envrionment (LIDE) in a deep-learning project
+* Design and verification an image processing system in Verilog
+* Cooperation with people from different backgrounds
+* Publication of two scientific papers, including one as the first author
+
+Teaching/Reseach Assistant
+Company NameTampere University of Technology
+Dates EmployedAug 2015 – Dec 2015
+Employment Duration5 mos
+LocationTampere
+* Design and verification of an audio processing system using VHDL
+* High level synthesis using HLS CatapultC tool
+
+Tampere University of Technology
+Degree NameMaster's of Science in Information TechnologyField Of StudyPervasive computingGrade3.7/5
+Dates attended or expected graduation2014
+
+Activities and Societies: Vendace fishing club board memeber
+Hefei University of Technology
+Hefei University of Technology
+Degree NameBachelor of ScienceField Of StudyElectronic Science and TechnologyGrade82/100
+Dates attended or expected graduation2010 – 2014
+
+## Skill
+* DSP, Comp Architecture, ModelSim, Catapult, HLS, SystemVerilog, Functional Programming, Universal Verification Methodology (UVM), Light-weight Dataflow Graph (LIDE) Application
+* VHDL,Verilog,Latex, Altera Quartus, Perl, QuestaSim, DeepLearning, CVision, Shell scripting
+
+## Course
+Advanced Signal Processing, Computer Architecture, DSP Implementation, Satellite Navigation Receivers, Signal Interpretation Methods, System Design
+
+## Publication
+* An Integrated Hardware/Software Design Methodology for Signal Processing Systems
+publication date2019  publication descriptionJournal of System Architecture
+
+* Design and Implementation of A Multi-mode Harris Corner Detector
+publication date2017  publication descriptionNORCAS
+
+* Futurice web project
+Aug 2014
+
+Project descriptionThe aim of the project to develop a single web application which combines several management tools into one mashup. The project, called Project Oracle, combined tools like Pivotal Tracker, Flowdock and Google Drive.
+
+I was a front-end developer in the group
 ---
 # Thanh Tran NUS 2k,  software development in both frontend, backend, and database taking Bachelor in Computer Engineering and specialization in Internet of Things in NUS.
 
