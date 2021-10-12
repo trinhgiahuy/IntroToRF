@@ -1,0 +1,10 @@
+B1. Antenna Impedance: The webpage source defines it as the ratio of voltage to the current at the antenna's terminals. The pdf defines it as the real part resistance and imaginary part reactance. The webpage source however states that the antenna will not radiate if its impedance does not match with the transmission line, while the pdf source state antenna will be reflected back into the load or lost as heat.
+
+2. Antenna efficiency: The pdf source define efficiency as how much energy is put into the antenna actually gets radiated into free space rather than lost as heat on the antenna's structure or reflected back into the source. The webpage on the other hand state that efficiency is the ratio of power delivered to the antenna relative to the power radiated from the antenna which is quite unclear and confusing. One more point that pdf point out the antenna cannot put energy into the system as it is characterized as a passive device.
+
+3. Antenna directivity: Both sources define the directivity quite similarly as the ratio of power density at maximum pattern relative to the referenced average power density at a uniform distance from the antenna, which also means the comparison of the shape of the radiation pattern.
+
+
+
+From the figure, it can be seen that at frequency 2328, the resistance of the antenna (R in blue) is 35.8641Ohm while the reactance (X in red) is -1.5617 Ohm which is a little bit capacitive. The impedance Z (in green) is 35.8981 Ohm is almost equal to the resistance since the reactance is so small. From phase -2.4934, which is nearly zero, it can be stated that at frequency 2328 the antenna is resonant and its impedance is almost resistive. 
+
