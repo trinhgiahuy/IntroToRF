@@ -8,6 +8,29 @@ Experience on developing software, including documentation using UML
 
 Topics include the design of data acquisition systems (NI-based), assisting in experimental work, and modeling tasks (electric and hydraulic systems). The work is mainly composed of development activities, algorithm and software development (Labview), overviews of scientific articles, setting of experimental systems, collecting data and performing experiments, modeling, and simulation (Matlab, Simulink, Amesim), assisting in demos and other events related to research projects.Programming experience in one of the languages and environments: C, C++, Matlab, Python
 Familiar with Data acquisition systems (Labview)
+---
+# Firmware engineer recruit
+JD
+- Phân tích, thiết kế và lựa chọn các giải pháp cho hệ thống nhúng
+
+- Viết firmware triển khai và tối ưu thuật toán điều khiển.
+
+- Phát triển sản phẩm đo lường và thu thập dữ liệu không dây, các sản phẩm về GPS, IoT
+
+- Thực hiện các công việc do quản lý giao
+-          Sử dụng thành thạo ngôn ngữ C/C++
+
+-          Có kiến thức cơ bản về kỹ thuật vi xử lý và kỹ thuật điện tử
+
+-          Có kinh nghiệm trong Hệ thống nhúng
+
+-          Nắm vững kiến thức cơ bản về cấu trúc dữ liệu và giải thuật
+
+-          Có kinh nghiệm lập trình các dòng vi điều khiển, vi xử lý: 16/32bit
+
+-          Có kiến thức về xây dựng hệ thống thu thập dữ liệu và truyền thông, triển khai công nghệ mới liên quan đến IoT, Home automation
+
+-          Có kinh nghiệm lập trình ngoại vi, giao tiếp bộ nhớ, giao tiếp số (UART/SPI/I2C/CAN...)
 
 ---
 # Jhonny Villota
