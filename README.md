@@ -373,3 +373,55 @@ Employment Duration4 mos
 
 ## Skill
 C++, DSA, OOP, WebDev, Java, HTML, C, RTOS, React.js, React Native, JS, Python, Arduino IDE, PostgreSQL, Flask, IoT
+
+---
+
+Jyri Murto  2nd degree connection2nd
+Engineer, SoC at Nokia
+https://www.linkedin.com/in/jyri-murto/
+
+Skills & endorsements
+Microcontrollers
+Embedded Systems
+Python (Programming Language)
+Industry Knowledge
+MIG Welding
+Soldering
+Electronics
+Audio Recording
+Audio Mixing
+Audio Editing
+Shell Scripting
+Database Administration
+Database Design
+Front-end Development
+Tools & Technologies
+C++
+C
+VHDL
+Node.js
+Linux
+Git
+Matlab
+Django
+REST APIs
+Django REST Framework
+SQL
+Docker Products
+Interpersonal Skills
+Easily Adaptable
+Other Skills 
+Google Search
+Hand Tools
+Musicality
+Open-mindedness
+Manual latheing
+Oscilloscope
+Arc Welding
+Android Studio
+Xilinx ISE
+STM32
+Web Application Development
+Back-End Web Development
+Database Development
+Software Deployment
