@@ -425,3 +425,17 @@ Web Application Development
 Back-End Web Development
 Database Development
 Software Deployment
+
+---
+### Tuomas Mononen 
+
+SoC Engineer at Nokia
+NokiaNokia
+2 yrs 11 mos2 yrs 11 mos
+TampereTampere
+Engineer, SoCEngineer, SoC
+Aug 2021 - Present · 5 mosAug 2021 - Present · 5 mos
+Verification of 5G and other related IP with SystemVerilog/UVMVerification of 5G and other related IP with SystemVerilog/UVM
+Trainee, SoCTrainee, SoC
+Feb 2019 - Jul 2021 · 2 yrs 6 mosFeb 2019 - Jul 2021 · 2 yrs 6 mos
+Verification of 5G and other related IP with SystemVerilog/UVM
